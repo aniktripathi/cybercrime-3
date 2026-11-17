@@ -1,0 +1,40 @@
+timestamp,host,event_id,account,description,process,parent_process,detail
+2026-10-12T08:02:43+05:30,NURSE-WS-B1,4688,staff,Process created,explorer.exe,userinit.exe,
+2026-10-12T09:43:25+05:30,BILLING-WS-07,4688,rkapoor,Process created,InsuranceClaim_Form_Oct.pdf.exe,explorer.exe,C:\Users\rkapoor\Downloads\InsuranceClaim_Form_Oct.pdf.exe
+2026-10-12T09:43:41+05:30,BILLING-WS-07,4698,rkapoor,Scheduled task created: OfficeUpdateSync (every 10 min),taskeng.exe,svchost.exe,C:\Users\rkapoor\AppData\Roaming\OfficeSync\osync.exe
+2026-10-12T14:54:46+05:30,RAD-WS-02,4688,staff,Process created,explorer.exe,userinit.exe,
+2026-10-12T14:57:59+05:30,RAD-WS-02,4688,staff,Process created,outlook.exe,explorer.exe,
+2026-10-12T16:13:38+05:30,BILLING-WS-07,4688,asingh,Process created,chrome.exe,explorer.exe,
+2026-10-12T16:25:13+05:30,BILLING-WS-07,4688,asingh,Process created,chrome.exe,explorer.exe,
+2026-10-12T16:53:31+05:30,RAD-WS-02,4688,staff,Process created,explorer.exe,userinit.exe,
+2026-10-12T19:12:31+05:30,RAD-WS-02,4688,staff,Process created,explorer.exe,userinit.exe,
+2026-10-12T20:37:53+05:30,NURSE-WS-B1,4688,staff,Process created,EHRClient.exe,explorer.exe,
+2026-10-12T22:41:45+05:30,NURSE-WS-B1,4688,staff,Process created,explorer.exe,userinit.exe,
+2026-10-12T23:09:27+05:30,RAD-WS-02,4688,staff,Process created,outlook.exe,explorer.exe,
+2026-10-13T00:09:05+05:30,RAD-WS-02,4688,staff,Process created,chrome.exe,explorer.exe,
+2026-10-13T00:18:23+05:30,RAD-WS-02,4688,staff,Process created,explorer.exe,userinit.exe,
+2026-10-13T08:21:11+05:30,RAD-WS-02,4688,staff,Process created,explorer.exe,userinit.exe,
+2026-10-13T09:08:29+05:30,RAD-WS-02,4688,staff,Process created,chrome.exe,explorer.exe,
+2026-10-13T10:40:10+05:30,RAD-WS-02,4688,staff,Process created,EHRClient.exe,explorer.exe,
+2026-10-13T11:08:21+05:30,BILLING-WS-07,4688,asingh,Process created,EHRClient.exe,explorer.exe,
+2026-10-13T11:18:40+05:30,NURSE-WS-B1,4688,staff,Process created,outlook.exe,explorer.exe,
+2026-10-13T12:08:10+05:30,NURSE-WS-B1,4688,staff,Process created,explorer.exe,userinit.exe,
+2026-10-13T12:54:04+05:30,RAD-WS-02,4688,staff,Process created,EHRClient.exe,explorer.exe,
+2026-10-13T14:04:40+05:30,BILLING-WS-07,SYSMON-10,rkapoor,Process accessed credential store (lsass.exe),osync.exe,taskeng.exe,Unexpected handle with read access to lsass.exe memory
+2026-10-13T14:06:44+05:30,RAD-WS-02,4688,staff,Process created,outlook.exe,explorer.exe,
+2026-10-13T14:36:03+05:30,BILLING-WS-07,4688,asingh,Process created,outlook.exe,explorer.exe,
+2026-10-13T15:14:54+05:30,RAD-WS-02,4688,staff,Process created,explorer.exe,userinit.exe,
+2026-10-13T15:38:20+05:30,RAD-WS-02,4688,staff,Process created,outlook.exe,explorer.exe,
+2026-10-13T15:48:29+05:30,BILLING-WS-07,4688,asingh,Process created,outlook.exe,explorer.exe,
+2026-10-13T16:35:26+05:30,NURSE-WS-B1,4688,staff,Process created,chrome.exe,explorer.exe,
+2026-10-13T18:53:30+05:30,BILLING-WS-07,4688,rkapoor,Process created from removable drive,E:\sysdiag.exe,osync.exe,E:\sysdiag.exe
+2026-10-13T19:30:51+05:30,HOSP-FS01,4688,svc_backup,"Process created (archiver, staging)",C:\Windows\Temp\arch.exe,cmd.exe,arch.exe a C:\Windows\Temp\stage\stage_%04d.7z D:\Shares\*
+2026-10-13T21:37:32+05:30,NURSE-WS-B1,4688,staff,Process created,chrome.exe,explorer.exe,
+2026-10-14T00:26:07+05:30,NURSE-WS-B1,4688,staff,Process created,outlook.exe,explorer.exe,
+2026-10-14T00:48:41+05:30,BILLING-WS-07,4688,asingh,Process created,explorer.exe,userinit.exe,
+2026-10-14T01:58:30+05:30,HOSP-FS01,4688,svc_backup,Process created (shadow copy deletion),vssadmin.exe,cmd.exe,vssadmin.exe delete shadows /all /quiet
+2026-10-14T02:00:15+05:30,HOSP-FS01,7036,SYSTEM,Service stopped: HospBackupAgent,services.exe,,HospBackupAgent entered the stopped state
+2026-10-14T02:03:00+05:30,HOSP-FS01,7045,svc_backup,New service installed: OmegaSvc (auto-start),services.exe,,C:\ProgramData\Microsoft\OfficeSync\omegasvc.exe
+2026-10-14T02:17:03+05:30,HOSP-FS01,4688,SYSTEM,Process created (service start),omegasvc.exe,services.exe,C:\ProgramData\Microsoft\OfficeSync\omegasvc.exe
+2026-10-14T02:33:05+05:30,HOSP-EHR-DB01,7036,SYSTEM,Service stopped: EHR-SQL,services.exe,,EHR-SQL entered the stopped state (not scheduled)
+2026-10-14T03:41:15+05:30,FW-EDGE-01,FW-POLICY,netadmin,Policy ISOLATE-OMEGA applied by on-call engineer,,,Deny all inter-VLAN and egress traffic for 10.20.0.0/16 (all hospital VLANs)

@@ -1,0 +1,27 @@
+=== Volatile data triage - HOSP-FS01 (collected BEFORE any shutdown) ===
+Scenario time: 2026-10-14 04:12 IST | Collected by: FA-1 | Witness: W-1
+Method: commands run from a trusted, read-only toolkit on external media; output redirected
+to external media (nothing written to the server's disks). Output below is SIMULATED.
+
+> tasklist (selected)
+Image Name          PID   Session   Note
+System              4     0
+services.exe        612   0
+omegasvc.exe        3184  0         <-- not a Windows component; started by services.exe 02:17:03
+svchost.exe         904   0
+HospBackupAgent     -     -         service STOPPED (02:00:15)
+
+> netstat -ano (selected)
+Proto  Local            Foreign              State
+TCP    10.20.5.10:3389  10.20.8.17:51022     CLOSE_WAIT    <-- stale RDP session from BILLING-WS-07 (cut by isolation 03:41:15)
+TCP    10.20.5.10:445   10.20.5.20:49812     ESTABLISHED
+(no connections to external addresses - egress denied since 03:41:15)
+
+> logged-on sessions
+svc_backup   RDP-Tcp#2   10.20.8.17   logon 2026-10-13 19:28:44
+
+> scheduled tasks / services of interest
+Service OmegaSvc (auto-start) -> C:\ProgramData\Microsoft\OfficeSync\omegasvc.exe  installed 02:03:00
+
+Decision recorded: server left POWERED ON and network-isolated until volatile data captured;
+D: volume then imaged via read-only LUN export (see acquisition_log.txt).

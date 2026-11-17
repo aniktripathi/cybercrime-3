@@ -1,0 +1,4 @@
+timestamp,host,event,vendor_id,product_id,serial,description,user_session,in_asset_inventory
+2026-10-12T11:05:12+05:30,RAD-WS-02,DEVICE_INSERTED,0781,5583,4C530001230815101194,"SanDisk Ultra (hospital-issued, encrypted)",mnair,YES
+2026-10-12T11:41:50+05:30,RAD-WS-02,DEVICE_REMOVED,0781,5583,4C530001230815101194,"SanDisk Ultra (hospital-issued, encrypted)",mnair,YES
+2026-10-13T18:52:07+05:30,BILLING-WS-07,DEVICE_INSERTED,0951,1666,0019E06B1C2A9F31,Kingston DataTraveler 3.0 (unregistered),rkapoor,NO

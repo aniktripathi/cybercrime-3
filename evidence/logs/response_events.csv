@@ -1,0 +1,13 @@
+timestamp,actor,event,category
+2026-10-14T03:05:00+05:30,Nurse Station B staff,Report EHR unavailable (first human detection),detection
+2026-10-14T03:12:00+05:30,Nurse manager,Escalated outage to IT on-call,detection
+2026-10-14T03:20:00+05:30,IT on-call (netadmin),Found ransom note on HOSP-FS01 console; suspected ransomware,detection
+2026-10-14T03:48:00+05:30,Hospital CISO,Declared security incident; called police cyber cell and first-responder team,response
+2026-10-14T03:52:00+05:30,FA-1 (first responder),Arrived on site; took scene control,response
+2026-10-14T04:05:00+05:30,FA-1,Began scene documentation (sketch + photographs + evidence tags),response
+2026-10-14T04:12:00+05:30,FA-1,Volatile-data triage on HOSP-FS01 (before any shutdown),response
+2026-10-14T05:10:00+05:30,FA-1,Started acquisition of HOSP-FS01 D: volume (read-only path),response
+2026-10-14T05:52:00+05:30,FA-1,Imaging complete; SHA-256 source = image (validated),response
+2026-10-14T06:20:00+05:30,FA-1 / Lab custodian,Custody transfer of sealed exhibits to forensic lab,response
+2026-10-14T07:50:00+05:30,Hospital CISO,Incident reported to CERT-In (deadline 6h from 03:05 notice = 09:05),regulatory
+2026-10-14T08:30:00+05:30,Hospital legal,FIR registered at cyber police station (placeholder reference),regulatory

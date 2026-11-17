@@ -1,0 +1,26 @@
+=== Case Omega - Cross-source correlation findings ===
+Events normalised: 1314 from 7 sources | Flagged findings: 22
+
+[C1] Dwell time (first malicious execution -> encryption start)
+     12-Oct 09:43:25 -> 14-Oct 02:17:03 = 40h 33m 38s
+[C2] Command-and-control beaconing (firewall)
+     BILLING-WS-07 -> 198.51.100.23:443  252 sessions, median interval 10.0 min, regularity CV=0.024; 12-Oct 09:44 to 14-Oct 03:34
+     First beacon is 0h 00m 37s after execution of the downloaded loader; 4 later attempts DENIED after isolation
+[C3] Credential attack: 6 failed network logons then success for svc_backup at 14:07:22, ~0h 02m 42s after the credential-store access event (SYSMON-10) at 14:04:40
+[C4] USB -> execution -> lateral movement chain (13-Oct)
+     USB inserted 18:52:07 -> executable run from E:\ at 18:53:30 (+0h 01m 23s) -> RDP to file server as svc_backup at 19:28:44 (+0h 36m 37s after insertion)
+     Insertion was OUTSIDE business hours on an unregistered device while the implant (osync.exe) was already beaconing.
+[C5] Collection and exfiltration (13-Oct)
+     Staging: 20 archives, 6.99 GiB created 19:31-21:56
+     Uploads: 9 sessions to 203.0.113.88, 6.93 GiB, 22:04-23:34
+     Browser history on HOSP-FS01 shows the same destination (file-drop-secure[.]io) opened at 22:04:11, one minute before the first upload - browser, firewall and file-system evidence agree.
+[C6] Recovery denial before encryption
+     Shadow-copy deletion 01:58:30, backup agent stopped 02:00:15, OmegaSvc installed 02:03:00 -> encryption begins 02:17:03 (preparation 0h 18m 33s)
+[C7] Encryption impact
+     HOSP-FS01: 02:17:03-02:41:37 (0h 24m 34s), ~24,500 files, peak ~3,300/min at 02:17
+     HOSP-EHR-DB01: 02:33:10-02:47:47 (0h 14m 37s), ~6,000 files, peak ~800/min at 02:43
+[C8] Detection and response latency
+     Encryption start -> first human report (nurse, 03:05): 0h 47m 57s
+     Encryption start -> network isolation (03:41:15): 1h 24m 12s
+     Last exfiltration session (23:34) -> isolation: 4h 07m 00s  (no alert or containment action appears in the evidence before the human report)
+     First malicious execution -> isolation: 41h 57m 50s

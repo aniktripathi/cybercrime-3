@@ -1,0 +1,4 @@
+=== Tamper-detection test (on a COPY; original image untouched) ===
+Original            : 806daab48eabf1e2fa0965c2297ca0cc4100a9b316be3cf56d27204e51a228cc
+1-byte-modified copy: aa30416afb459f5268090643b7362375db41a4bc66773c50822f3e743c5a6882
+Result: hashes differ -> any single-byte change is detected.

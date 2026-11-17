@@ -1,0 +1,36 @@
+=== Image examination (debugfs, read-only) ===
+Note: file modification times inside the container were set to scenario time; superblock/ctime fields
+reflect when the simulated container was built and are not scenario evidence.
+Filesystem volume name:   HOSP-FS01-D
+Block count:              2048
+Block size:               4096
+
+--- /Shares/Billing/Claims ---
+     24   40755 (2)      0      0    4096 16-Nov-2026 04:26 .
+     23   40755 (2)      0      0    4096 16-Nov-2026 04:26 ..
+     25  100644 (1)      0      0    1081 13-Oct-2026 20:47 README_OMEGA.txt
+     26  100644 (1)      0      0   60456 13-Oct-2026 21:08 record_00000.pdf.omega
+     27  100644 (1)      0      0   37783 13-Oct-2026 21:08 record_00001.pdf.omega
+     28  100644 (1)      0      0   69761 13-Oct-2026 21:03 record_00002.pdf.omega
+     29  100644 (1)      0      0   24339 13-Oct-2026 20:50 record_00003.pdf.omega
+     30  100644 (1)      0      0   27505 13-Oct-2026 21:04 record_00004.pdf.omega
+     31  100644 (1)      0      0   88250 13-Oct-2026 20:53 record_00005.pdf.omega
+
+--- /Windows/Temp ---
+     52   40755 (2)      0      0    4096 16-Nov-2026 04:26 .
+     51   40755 (2)      0      0    4096 16-Nov-2026 04:26 ..
+     53  100644 (1)      0      0     145 13-Oct-2026 14:00 arch.exe.QUARANTINED.txt
+     54  100644 (1)      0      0     101 13-Oct-2026 14:08 stage_0001.7z.PLACEHOLDER.txt
+     55  100644 (1)      0      0     101 13-Oct-2026 14:15 stage_0002.7z.PLACEHOLDER.txt
+     56  100644 (1)      0      0     101 13-Oct-2026 14:22 stage_0003.7z.PLACEHOLDER.txt
+
+--- /ProgramData/Microsoft/OfficeSync ---
+     14   40755 (2)      0      0    4096 16-Nov-2026 04:26 .
+     13   40755 (2)      0      0    4096 16-Nov-2026 04:26 ..
+     15  100644 (1)      0      0     176 13-Oct-2026 20:33 omegasvc.exe.QUARANTINED.txt
+
+--- file type check on an 'encrypted' artefact (first bytes) ---
+00000000: 4f4d 4547 4145 4e43 3100 01b7 f136 6851  OMEGAENC1....6hQ
+
+Note: debugfs prints times in UTC. Example: 13-Oct 20:47 UTC = 14-Oct 02:17 IST (+05:30),
+matching the encryption window seen in evidence/logs/file_changes.csv.

@@ -1,0 +1,92 @@
+name: Directory Structure Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  directory-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required files and folders exist
+        run: |
+          set -e
+          required=(
+            "README.md"
+            "requirements.txt"
+            "docs/01-first-responder-sop-scene-documentation.md"
+            "docs/02-evidence-collection-chain-of-custody.md"
+            "docs/03-malware-analysis.md"
+            "docs/04-timeline-correlation.md"
+            "docs/tools-used.md"
+            "report"
+            "evidence/scene/scene_sketch.png"
+            "evidence/scene/evidence_tag_sheet.png"
+            "evidence/acquisition/HOSP-FS01_D_vol.dd"
+            "evidence/acquisition/HOSP-FS01_D_vol.dd.sha256"
+            "evidence/chain-of-custody/chain_of_custody_form.md"
+            "evidence/malware-analysis/ioc_list.csv"
+            "evidence/malware-analysis/static_analysis_report.txt"
+            "evidence/malware-analysis/dynamic_analysis_report.txt"
+            "evidence/logs"
+            "evidence/timeline/timeline_overview.png"
+            "tools/acquire_image.sh"
+            "tools/verify_image_hash.py"
+            "tools/ioc_extractor.py"
+            "tools/timeline_builder.py"
+            "screenshots"
+          )
+          missing=0
+          for path in "${required[@]}"; do
+            if [ ! -e "$path" ]; then
+              echo "::error::Missing required path: $path"
+              missing=1
+            else
+              echo "OK: $path"
+            fi
+          done
+          if [ "$missing" -eq 1 ]; then
+            echo "Repository structure check FAILED."
+            exit 1
+          fi
+
+      - name: Check a report deliverable exists (DOCX or PDF)
+        run: |
+          shopt -s nullglob
+          reports=(report/*.docx report/*.pdf)
+          if [ ${#reports[@]} -eq 0 ]; then
+            echo "::error::No .docx or .pdf report found in report/"
+            exit 1
+          fi
+          echo "Report found: ${reports[*]}"
+
+      - name: Check evidence counts
+        run: |
+          logs=$(find evidence/logs -maxdepth 1 -name "*.csv" | wc -l)
+          shots=$(find screenshots -maxdepth 1 -name "*.png" | wc -l)
+          iocs=$(($(wc -l < evidence/malware-analysis/ioc_list.csv) - 1))
+          echo "log files: $logs, screenshots: $shots, IOC rows: $iocs"
+          [ "$logs" -ge 5 ] || { echo "::error::Need at least 5 log sources"; exit 1; }
+          [ "$shots" -ge 3 ] || { echo "::error::Need at least 3 screenshots"; exit 1; }
+          [ "$iocs" -ge 5 ] || { echo "::error::Need at least 5 IOCs"; exit 1; }
+
+      - name: Verify evidence image hash
+        run: python3 tools/verify_image_hash.py evidence/acquisition
+
+      - name: Check scripts (syntax)
+        run: |
+          for f in tools/*.py; do
+            echo "Compiling $f"
+            python3 -m py_compile "$f"
+          done
+          bash -n tools/acquire_image.sh
+          echo "All scripts passed syntax checks."
+
+      - name: Summary
+        if: success()
+        run: echo "Repo structure, evidence integrity and scripts validated successfully."

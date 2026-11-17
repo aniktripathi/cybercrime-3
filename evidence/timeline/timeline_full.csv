@@ -1,0 +1,1315 @@
+timestamp_ist,source,host,summary,detail,flag,phase
+2026-10-12 08:00:44,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"49,508 B out",,
+2026-10-12 08:02:43,system,NURSE-WS-B1,[4688] Process created,,,
+2026-10-12 08:12:51,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"40,111 B out",,
+2026-10-12 08:21:32,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-12 08:21:33,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"5,296 B out",,
+2026-10-12 08:21:34,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"47,995 B out",,
+2026-10-12 08:23:56,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"46,693 B out",,
+2026-10-12 08:24:10,files,RAD-WS-02,MODIFY C:\Users\mnair\Documents\file_7730.pdf,"269,245 B x1",,
+2026-10-12 08:38:33,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 08:40:59,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"18,168 B out",,
+2026-10-12 08:42:38,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"21,894 B out",,
+2026-10-12 08:52:20,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 09:07:39,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"56,100 B out",,
+2026-10-12 09:10:23,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"17,307 B out",,
+2026-10-12 09:12:40,firewall,RAD-WS-02,ALLOW -> 192.0.2.44:443,"26,580 B out",,
+2026-10-12 09:13:36,browser,BILLING-WS-07,VISIT hxxps://news[.]example/health,Health news,,
+2026-10-12 09:15:17,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_7522.csv,"588,652 B x1",,
+2026-10-12 09:30:49,browser,BILLING-WS-07,VISIT hxxps://intranet[.]sunrisemed[.]example/home,Hospital Intranet,,
+2026-10-12 09:32:32,files,HOSP-FS01,CREATE D:\Shares\Billing\file_2078.pdf,"2,256,386 B x1",,
+2026-10-12 09:40:39,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 09:41:12,browser,BILLING-WS-07,VISIT hxxps://insurance-claims-portal[.]biz/forms,Claim Forms Download Centre,UNTRUSTED_SITE,
+2026-10-12 09:42:03,browser,BILLING-WS-07,DOWNLOAD hxxps://insurance-claims-portal[.]biz/dl/InsuranceClaim_Form_Oct.pdf.zip,InsuranceClaim_Form_Oct.pdf.zip (1.8 MB),SUSPICIOUS_DOWNLOAD,
+2026-10-12 09:43:10,files,BILLING-WS-07,CREATE C:\Users\rkapoor\Downloads\InsuranceClaim_Form_Oct.pdf.exe,"612,352 B x1",MALWARE_FILE_CREATED,Initial Access
+2026-10-12 09:43:25,system,BILLING-WS-07,[4688] Process created,C:\Users\rkapoor\Downloads\InsuranceClaim_Form_Oct.pdf.exe,EXEC_FROM_DOWNLOADS,Initial Access
+2026-10-12 09:43:38,files,BILLING-WS-07,CREATE C:\Users\rkapoor\AppData\Roaming\OfficeSync\osync.exe,"612,352 B x1",MALWARE_FILE_CREATED,Persistence & C2
+2026-10-12 09:43:41,system,BILLING-WS-07,[4698] Scheduled task created: OfficeUpdateSync (every 10 min),C:\Users\rkapoor\AppData\Roaming\OfficeSync\osync.exe,PERSISTENCE_SCHEDULED_TASK,Persistence & C2
+2026-10-12 09:44:02,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,026 B out",,
+2026-10-12 09:54:06,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,941 B out,,
+2026-10-12 10:03:13,browser,BILLING-WS-07,VISIT hxxps://insurer-tpa[.]example/claims,Insurer TPA portal (approved),,
+2026-10-12 10:03:49,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,134 B out",,
+2026-10-12 10:07:07,browser,BILLING-WS-07,VISIT hxxps://intranet[.]sunrisemed[.]example/home,Hospital Intranet,,
+2026-10-12 10:14:14,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,312 B out",,
+2026-10-12 10:19:08,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"11,166 B out",,
+2026-10-12 10:21:26,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"13,933 B out",,
+2026-10-12 10:23:59,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,313 B out",,
+2026-10-12 10:33:48,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,067 B out",,
+2026-10-12 10:37:31,files,BILLING-WS-07,MODIFY C:\Users\rkapoor\Documents\file_9275.pdf,"1,337,464 B x1",,
+2026-10-12 10:38:32,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_5842.xlsx,"1,275,943 B x1",,
+2026-10-12 10:38:59,firewall,HOSP-DC01,ALLOW -> 192.0.2.44:443,"30,598 B out",,
+2026-10-12 10:39:16,files,BILLING-WS-07,MODIFY C:\Users\rkapoor\Documents\file_4435.xlsx,"1,741,703 B x1",,
+2026-10-12 10:39:23,firewall,RAD-WS-02,ALLOW -> 192.0.2.44:443,"21,026 B out",,
+2026-10-12 10:43:57,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,942 B out,,
+2026-10-12 10:45:11,files,BILLING-WS-07,CREATE C:\Users\rkapoor\Documents\file_6142.csv,"1,244,504 B x1",,
+2026-10-12 10:46:15,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"39,895 B out",,
+2026-10-12 10:54:04,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,350 B out",,
+2026-10-12 11:01:01,browser,RAD-WS-02,VISIT hxxps://pubmed[.]example/search,Medical literature search,,
+2026-10-12 11:03:46,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,327 B out",,
+2026-10-12 11:05:12,usb,RAD-WS-02,"DEVICE_INSERTED SanDisk Ultra (hospital-issued, encrypted)",serial 4C530001230815101194,,
+2026-10-12 11:08:26,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.80:443,"3,518 B out",,
+2026-10-12 11:13:55,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,935 B out,,
+2026-10-12 11:23:45,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,256 B out",,
+2026-10-12 11:24:56,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"27,671 B out",,
+2026-10-12 11:30:34,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"41,133 B out",,
+2026-10-12 11:34:01,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,561 B out",,
+2026-10-12 11:41:50,usb,RAD-WS-02,"DEVICE_REMOVED SanDisk Ultra (hospital-issued, encrypted)",serial 4C530001230815101194,,
+2026-10-12 11:43:57,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,226 B out",,
+2026-10-12 11:46:07,browser,RAD-WS-02,VISIT hxxps://intranet[.]sunrisemed[.]example/home,Hospital Intranet,,
+2026-10-12 11:54:19,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,310 B out",,
+2026-10-12 12:04:36,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,026 B out",,
+2026-10-12 12:09:01,browser,BILLING-WS-07,VISIT hxxps://webmail[.]sunrisemed[.]example/inbox,Webmail,,
+2026-10-12 12:10:27,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 12:14:15,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,573 B out",,
+2026-10-12 12:21:02,browser,BILLING-WS-07,VISIT hxxps://webmail[.]sunrisemed[.]example/inbox,Webmail,,
+2026-10-12 12:21:53,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 12:21:53,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_7161.xlsx,"1,206,430 B x1",,
+2026-10-12 12:24:12,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,099 B out",,
+2026-10-12 12:30:14,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"7,282 B out",,
+2026-10-12 12:33:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,097 B out",,
+2026-10-12 12:43:47,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,513 B out",,
+2026-10-12 12:53:51,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,139 B out",,
+2026-10-12 13:02:18,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"33,512 B out",,
+2026-10-12 13:04:07,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,352 B out",,
+2026-10-12 13:05:18,files,HOSP-FS01,MODIFY D:\Shares\Billing\file_8676.csv,"271,566 B x1",,
+2026-10-12 13:14:02,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,145 B out",,
+2026-10-12 13:24:10,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,393 B out",,
+2026-10-12 13:25:03,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 13:27:46,auth,HOSP-DC01,[4625] Failed logon dpatel,from 10.20.1.5 type 2 FAILURE,,
+2026-10-12 13:33:42,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-12 13:33:45,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,208 B out",,
+2026-10-12 13:43:33,files,RAD-WS-02,MODIFY C:\Users\mnair\Documents\file_1915.pdf,"484,648 B x1",,
+2026-10-12 13:43:41,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,913 B out,,
+2026-10-12 13:53:17,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,382 B out",,
+2026-10-12 14:02:33,browser,BILLING-WS-07,VISIT hxxps://pubmed[.]example/search,Medical literature search,,
+2026-10-12 14:03:42,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,476 B out",,
+2026-10-12 14:06:09,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_2072.pdf,"2,603,151 B x1",,
+2026-10-12 14:09:14,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.10:443,"24,963 B out",,
+2026-10-12 14:11:59,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"29,510 B out",,
+2026-10-12 14:13:35,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,437 B out",,
+2026-10-12 14:14:23,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"52,954 B out",,
+2026-10-12 14:16:37,browser,BILLING-WS-07,VISIT hxxps://pubmed[.]example/search,Medical literature search,,
+2026-10-12 14:18:54,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"22,040 B out",,
+2026-10-12 14:19:21,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"4,217 B out",,
+2026-10-12 14:23:27,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,562 B out",,
+2026-10-12 14:26:16,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"33,706 B out",,
+2026-10-12 14:29:39,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"32,810 B out",,
+2026-10-12 14:29:40,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"21,859 B out",,
+2026-10-12 14:29:47,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"33,761 B out",,
+2026-10-12 14:32:46,auth,NURSE-WS-B1,[4624] Successful logon nurse_b1,from 10.20.7.31 type 2 SUCCESS,,
+2026-10-12 14:33:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,124 B out",,
+2026-10-12 14:35:53,browser,BILLING-WS-07,VISIT hxxps://pubmed[.]example/search,Medical literature search,,
+2026-10-12 14:36:34,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"45,891 B out",,
+2026-10-12 14:38:08,browser,BILLING-WS-07,VISIT hxxps://news[.]example/health,Health news,,
+2026-10-12 14:40:33,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_6959.xlsx,"1,479,982 B x1",,
+2026-10-12 14:44:05,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,969 B out,,
+2026-10-12 14:45:39,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"34,832 B out",,
+2026-10-12 14:48:23,browser,RAD-WS-02,VISIT hxxps://insurer-tpa[.]example/claims,Insurer TPA portal (approved),,
+2026-10-12 14:49:53,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 14:53:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,599 B out",,
+2026-10-12 14:54:46,system,RAD-WS-02,[4688] Process created,,,
+2026-10-12 14:57:59,system,RAD-WS-02,[4688] Process created,,,
+2026-10-12 14:59:23,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 15:03:53,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,092 B out",,
+2026-10-12 15:05:45,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"1,327 B out",,
+2026-10-12 15:10:16,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"36,157 B out",,
+2026-10-12 15:14:14,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,272 B out",,
+2026-10-12 15:18:02,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"51,673 B out",,
+2026-10-12 15:18:37,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"25,909 B out",,
+2026-10-12 15:22:31,firewall,RAD-WS-02,ALLOW -> 192.0.2.44:443,"20,198 B out",,
+2026-10-12 15:24:30,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,914 B out,,
+2026-10-12 15:25:57,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"53,442 B out",,
+2026-10-12 15:33:46,files,HOSP-FS01,CREATE D:\Shares\Billing\file_3430.docx,"1,573,134 B x1",,
+2026-10-12 15:34:26,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,976 B out,,
+2026-10-12 15:40:14,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,808 B out,,
+2026-10-12 15:44:35,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,090 B out",,
+2026-10-12 15:47:04,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"29,772 B out",,
+2026-10-12 15:54:33,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,496 B out",,
+2026-10-12 16:00:41,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"53,034 B out",,
+2026-10-12 16:04:14,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"50,607 B out",,
+2026-10-12 16:04:34,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,505 B out",,
+2026-10-12 16:12:57,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 16:13:38,system,BILLING-WS-07,[4688] Process created,,,
+2026-10-12 16:14:38,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,335 B out",,
+2026-10-12 16:22:06,browser,RAD-WS-02,VISIT hxxps://webmail[.]sunrisemed[.]example/inbox,Webmail,,
+2026-10-12 16:24:58,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,973 B out,,
+2026-10-12 16:25:13,system,BILLING-WS-07,[4688] Process created,,,
+2026-10-12 16:34:56,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"9,817 B out",,
+2026-10-12 16:34:59,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,377 B out",,
+2026-10-12 16:36:15,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"10,555 B out",,
+2026-10-12 16:37:35,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"9,275 B out",,
+2026-10-12 16:40:04,files,RAD-WS-02,MODIFY C:\Users\mnair\Documents\file_9198.xlsx,"2,722,758 B x1",,
+2026-10-12 16:40:45,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"48,119 B out",,
+2026-10-12 16:44:37,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,344 B out",,
+2026-10-12 16:45:20,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"49,361 B out",,
+2026-10-12 16:48:59,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"6,636 B out",,
+2026-10-12 16:53:31,system,RAD-WS-02,[4688] Process created,,,
+2026-10-12 16:54:31,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,023 B out",,
+2026-10-12 16:54:47,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"42,207 B out",,
+2026-10-12 16:58:12,files,HOSP-FS01,CREATE D:\Shares\Billing\file_8989.docx,"493,764 B x1",,
+2026-10-12 17:00:58,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"54,432 B out",,
+2026-10-12 17:01:15,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"15,914 B out",,
+2026-10-12 17:02:57,browser,BILLING-WS-07,VISIT hxxps://webmail[.]sunrisemed[.]example/inbox,Webmail,,
+2026-10-12 17:04:43,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,081 B out",,
+2026-10-12 17:14:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,047 B out",,
+2026-10-12 17:16:38,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"19,481 B out",,
+2026-10-12 17:18:54,firewall,HOSP-DC01,ALLOW -> 192.0.2.44:443,"19,216 B out",,
+2026-10-12 17:24:21,files,HOSP-FS01,CREATE D:\Shares\Billing\file_7718.pdf,"882,163 B x1",,
+2026-10-12 17:24:31,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,417 B out",,
+2026-10-12 17:32:04,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"16,035 B out",,
+2026-10-12 17:34:07,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,186 B out",,
+2026-10-12 17:44:05,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,243 B out",,
+2026-10-12 17:54:06,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,906 B out,,
+2026-10-12 17:59:16,browser,BILLING-WS-07,VISIT hxxps://insurer-tpa[.]example/claims,Insurer TPA portal (approved),,
+2026-10-12 18:04:10,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,983 B out,,
+2026-10-12 18:06:31,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"50,042 B out",,
+2026-10-12 18:09:07,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_5447.xlsx,"913,444 B x1",,
+2026-10-12 18:14:20,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,242 B out",,
+2026-10-12 18:17:48,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"33,315 B out",,
+2026-10-12 18:21:49,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"19,334 B out",,
+2026-10-12 18:23:06,files,RAD-WS-02,MODIFY C:\Users\mnair\Documents\file_3669.docx,"2,815,748 B x1",,
+2026-10-12 18:23:47,auth,NURSE-WS-B1,[4625] Failed logon nurse_b1,from 10.20.7.31 type 2 FAILURE,,
+2026-10-12 18:23:55,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,558 B out",,
+2026-10-12 18:24:37,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 18:29:29,firewall,RAD-WS-02,ALLOW -> 192.0.2.44:443,"24,932 B out",,
+2026-10-12 18:30:29,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"25,456 B out",,
+2026-10-12 18:33:42,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,378 B out",,
+2026-10-12 18:37:33,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"44,718 B out",,
+2026-10-12 18:43:57,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,415 B out",,
+2026-10-12 18:47:25,files,BILLING-WS-07,CREATE C:\Users\rkapoor\Documents\file_5704.pdf,"1,710,703 B x1",,
+2026-10-12 18:53:33,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,923 B out,,
+2026-10-12 18:55:59,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-12 19:03:42,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,137 B out",,
+2026-10-12 19:05:32,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-12 19:12:31,system,RAD-WS-02,[4688] Process created,,,
+2026-10-12 19:12:57,firewall,RAD-WS-02,ALLOW -> 192.0.2.44:443,"55,672 B out",,
+2026-10-12 19:14:07,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,237 B out",,
+2026-10-12 19:24:17,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,179 B out",,
+2026-10-12 19:34:28,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,921 B out,,
+2026-10-12 19:44:18,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,215 B out",,
+2026-10-12 19:47:07,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"39,117 B out",,
+2026-10-12 19:54:14,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,408 B out",,
+2026-10-12 20:03:55,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,548 B out",,
+2026-10-12 20:09:12,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 20:13:24,firewall,RAD-WS-02,ALLOW -> 192.0.2.44:443,"40,430 B out",,
+2026-10-12 20:13:32,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,922 B out,,
+2026-10-12 20:14:54,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"48,317 B out",,
+2026-10-12 20:15:06,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"9,277 B out",,
+2026-10-12 20:23:56,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,922 B out,,
+2026-10-12 20:28:06,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"6,899 B out",,
+2026-10-12 20:34:13,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,401 B out",,
+2026-10-12 20:37:53,system,NURSE-WS-B1,[4688] Process created,,,
+2026-10-12 20:40:56,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"30,528 B out",,
+2026-10-12 20:42:46,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"18,536 B out",,
+2026-10-12 20:43:54,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-12 20:44:04,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,233 B out",,
+2026-10-12 20:51:04,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"45,348 B out",,
+2026-10-12 20:54:14,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,938 B out,,
+2026-10-12 21:04:32,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,058 B out",,
+2026-10-12 21:05:56,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"38,760 B out",,
+2026-10-12 21:14:33,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,361 B out",,
+2026-10-12 21:24:32,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,074 B out",,
+2026-10-12 21:27:30,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"54,367 B out",,
+2026-10-12 21:28:39,auth,RAD-WS-02,[4625] Failed logon mnair,from 10.20.9.22 type 2 FAILURE,,
+2026-10-12 21:34:41,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,056 B out",,
+2026-10-12 21:36:44,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.10:443,"39,655 B out",,
+2026-10-12 21:44:56,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,312 B out",,
+2026-10-12 21:47:01,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"3,666 B out",,
+2026-10-12 21:55:12,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,376 B out",,
+2026-10-12 21:57:04,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"14,601 B out",,
+2026-10-12 22:02:42,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"18,367 B out",,
+2026-10-12 22:05:21,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,046 B out",,
+2026-10-12 22:05:35,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"14,569 B out",,
+2026-10-12 22:15:26,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,029 B out",,
+2026-10-12 22:25:32,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,228 B out",,
+2026-10-12 22:26:08,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"50,966 B out",,
+2026-10-12 22:30:30,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"30,256 B out",,
+2026-10-12 22:35:30,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,562 B out",,
+2026-10-12 22:40:54,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"37,614 B out",,
+2026-10-12 22:41:45,system,NURSE-WS-B1,[4688] Process created,,,
+2026-10-12 22:45:40,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,597 B out",,
+2026-10-12 22:55:07,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"7,730 B out",,
+2026-10-12 22:55:36,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,352 B out",,
+2026-10-12 23:05:49,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,103 B out",,
+2026-10-12 23:09:27,system,RAD-WS-02,[4688] Process created,,,
+2026-10-12 23:10:30,auth,NURSE-WS-B1,[4625] Failed logon nurse_b1,from 10.20.7.31 type 2 FAILURE,,
+2026-10-12 23:15:34,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,220 B out",,
+2026-10-12 23:22:07,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.10:443,"24,534 B out",,
+2026-10-12 23:25:50,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,297 B out",,
+2026-10-12 23:27:19,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"17,782 B out",,
+2026-10-12 23:28:35,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"52,442 B out",,
+2026-10-12 23:33:27,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 23:33:50,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-12 23:34:02,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-12 23:35:39,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,967 B out,,
+2026-10-12 23:42:06,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-12 23:45:18,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,483 B out",,
+2026-10-12 23:51:23,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"5,639 B out",,
+2026-10-12 23:53:21,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-12 23:54:56,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,024 B out",,
+2026-10-12 23:55:24,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"58,101 B out",,
+2026-10-12 23:57:56,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"22,490 B out",,
+2026-10-13 00:04:41,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,154 B out",,
+2026-10-13 00:07:05,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-13 00:09:05,system,RAD-WS-02,[4688] Process created,,,
+2026-10-13 00:12:50,firewall,HOSP-FS01,ALLOW -> 192.0.2.80:443,"17,355 B out",,
+2026-10-13 00:14:20,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,370 B out",,
+2026-10-13 00:18:23,system,RAD-WS-02,[4688] Process created,,,
+2026-10-13 00:19:42,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"11,476 B out",,
+2026-10-13 00:24:02,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,064 B out",,
+2026-10-13 00:30:50,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-13 00:31:03,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"1,939 B out",,
+2026-10-13 00:33:57,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,330 B out",,
+2026-10-13 00:38:04,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"8,013 B out",,
+2026-10-13 00:43:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,203 B out",,
+2026-10-13 00:49:18,firewall,RAD-WS-02,ALLOW -> 192.0.2.44:443,"37,941 B out",,
+2026-10-13 00:54:04,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,136 B out",,
+2026-10-13 01:03:44,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,056 B out",,
+2026-10-13 01:08:59,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"34,043 B out",,
+2026-10-13 01:10:07,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"26,780 B out",,
+2026-10-13 01:13:42,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,946 B out,,
+2026-10-13 01:23:23,firewall,HOSP-FS01,ALLOW -> 192.0.2.80:443,"43,876 B out",,
+2026-10-13 01:23:38,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,876 B out,,
+2026-10-13 01:23:59,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,329 B out",,
+2026-10-13 01:30:47,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"20,802 B out",,
+2026-10-13 01:34:18,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,923 B out,,
+2026-10-13 01:40:28,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"34,170 B out",,
+2026-10-13 01:44:03,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,260 B out",,
+2026-10-13 01:46:37,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"41,380 B out",,
+2026-10-13 01:54:09,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,441 B out",,
+2026-10-13 01:55:07,auth,NURSE-WS-B1,[4625] Failed logon nurse_b1,from 10.20.7.31 type 2 FAILURE,,
+2026-10-13 02:04:10,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,973 B out,,
+2026-10-13 02:06:55,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"56,524 B out",,
+2026-10-13 02:13:50,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,292 B out",,
+2026-10-13 02:15:39,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"5,992 B out",,
+2026-10-13 02:24:10,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,347 B out",,
+2026-10-13 02:34:23,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,149 B out",,
+2026-10-13 02:38:19,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"41,306 B out",,
+2026-10-13 02:44:30,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,189 B out",,
+2026-10-13 02:47:51,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"50,465 B out",,
+2026-10-13 02:54:51,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,377 B out",,
+2026-10-13 02:56:33,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"34,976 B out",,
+2026-10-13 03:04:59,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,358 B out",,
+2026-10-13 03:06:34,firewall,HOSP-FS01,ALLOW -> 192.0.2.80:443,"57,079 B out",,
+2026-10-13 03:15:22,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,215 B out",,
+2026-10-13 03:16:31,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"2,275 B out",,
+2026-10-13 03:25:25,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,179 B out",,
+2026-10-13 03:33:43,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"51,206 B out",,
+2026-10-13 03:34:36,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"7,654 B out",,
+2026-10-13 03:35:15,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,029 B out",,
+2026-10-13 03:45:10,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,998 B out,,
+2026-10-13 03:45:28,firewall,RAD-WS-02,ALLOW -> 192.0.2.44:443,"53,324 B out",,
+2026-10-13 03:55:04,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,053 B out",,
+2026-10-13 04:05:22,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,053 B out",,
+2026-10-13 04:15:00,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"13,660 B out",,
+2026-10-13 04:15:39,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,593 B out",,
+2026-10-13 04:25:54,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,095 B out",,
+2026-10-13 04:36:10,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,420 B out",,
+2026-10-13 04:45:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,344 B out",,
+2026-10-13 04:53:36,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"13,575 B out",,
+2026-10-13 04:56:16,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,578 B out",,
+2026-10-13 04:57:19,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"56,317 B out",,
+2026-10-13 05:05:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,297 B out",,
+2026-10-13 05:07:18,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"22,177 B out",,
+2026-10-13 05:15:34,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.80:443,"19,882 B out",,
+2026-10-13 05:15:41,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,950 B out,,
+2026-10-13 05:26:01,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,471 B out",,
+2026-10-13 05:36:03,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,569 B out",,
+2026-10-13 05:39:40,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"26,611 B out",,
+2026-10-13 05:42:21,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"52,556 B out",,
+2026-10-13 05:45:46,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,283 B out",,
+2026-10-13 05:55:43,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,455 B out",,
+2026-10-13 06:05:44,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,308 B out",,
+2026-10-13 06:16:00,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,284 B out",,
+2026-10-13 06:26:07,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,265 B out",,
+2026-10-13 06:36:17,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,354 B out",,
+2026-10-13 06:43:34,firewall,HOSP-DC01,ALLOW -> 192.0.2.44:443,"51,081 B out",,
+2026-10-13 06:45:28,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.80:443,"34,282 B out",,
+2026-10-13 06:45:56,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,469 B out",,
+2026-10-13 06:52:45,auth,NURSE-WS-B1,[4624] Successful logon nurse_b1,from 10.20.7.31 type 2 SUCCESS,,
+2026-10-13 06:55:57,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,058 B out",,
+2026-10-13 07:05:53,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,080 B out",,
+2026-10-13 07:11:13,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"28,926 B out",,
+2026-10-13 07:11:36,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"37,391 B out",,
+2026-10-13 07:15:47,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,227 B out",,
+2026-10-13 07:18:30,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"43,126 B out",,
+2026-10-13 07:24:12,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"7,445 B out",,
+2026-10-13 07:25:57,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,549 B out",,
+2026-10-13 07:32:53,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"32,270 B out",,
+2026-10-13 07:35:50,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,243 B out",,
+2026-10-13 07:45:34,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,032 B out",,
+2026-10-13 07:54:46,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"28,600 B out",,
+2026-10-13 07:55:44,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,141 B out",,
+2026-10-13 08:05:20,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,282 B out",,
+2026-10-13 08:09:16,browser,BILLING-WS-07,VISIT hxxps://insurer-tpa[.]example/claims,Insurer TPA portal (approved),,
+2026-10-13 08:14:59,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,164 B out",,
+2026-10-13 08:17:09,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"18,410 B out",,
+2026-10-13 08:21:11,system,RAD-WS-02,[4688] Process created,,,
+2026-10-13 08:22:09,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.80:443,"23,122 B out",,
+2026-10-13 08:25:14,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,962 B out,,
+2026-10-13 08:28:25,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"54,216 B out",,
+2026-10-13 08:29:24,browser,RAD-WS-02,VISIT hxxps://news[.]example/health,Health news,,
+2026-10-13 08:30:53,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"45,195 B out",,
+2026-10-13 08:34:15,files,HOSP-FS01,CREATE D:\Shares\Billing\file_9303.pdf,"2,744,089 B x1",,
+2026-10-13 08:35:31,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,515 B out",,
+2026-10-13 08:37:00,browser,RAD-WS-02,VISIT hxxps://pubmed[.]example/search,Medical literature search,,
+2026-10-13 08:44:23,browser,BILLING-WS-07,VISIT hxxps://webmail[.]sunrisemed[.]example/inbox,Webmail,,
+2026-10-13 08:45:29,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,300 B out",,
+2026-10-13 08:55:35,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,079 B out",,
+2026-10-13 09:05:20,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,003 B out",,
+2026-10-13 09:06:38,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"12,033 B out",,
+2026-10-13 09:07:48,files,HOSP-FS01,CREATE D:\Shares\Billing\file_6872.xlsx,"2,301,666 B x1",,
+2026-10-13 09:08:29,system,RAD-WS-02,[4688] Process created,,,
+2026-10-13 09:15:20,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,269 B out",,
+2026-10-13 09:16:13,files,HOSP-FS01,MODIFY D:\Shares\Billing\file_2718.docx,"1,767,504 B x1",,
+2026-10-13 09:25:44,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,111 B out",,
+2026-10-13 09:29:57,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.10:443,"17,667 B out",,
+2026-10-13 09:35:35,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"51,504 B out",,
+2026-10-13 09:35:53,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,504 B out",,
+2026-10-13 09:44:46,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"29,130 B out",,
+2026-10-13 09:45:41,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,104 B out",,
+2026-10-13 09:51:59,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_2654.xlsx,"1,504,640 B x1",,
+2026-10-13 09:52:00,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"15,460 B out",,
+2026-10-13 09:55:45,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,077 B out",,
+2026-10-13 10:03:48,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-13 10:05:39,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,176 B out",,
+2026-10-13 10:06:48,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 10:08:23,files,BILLING-WS-07,MODIFY C:\Users\rkapoor\Documents\file_1189.docx,"490,699 B x1",,
+2026-10-13 10:14:26,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"20,267 B out",,
+2026-10-13 10:15:41,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,278 B out",,
+2026-10-13 10:16:30,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"52,801 B out",,
+2026-10-13 10:23:38,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-13 10:25:38,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,295 B out",,
+2026-10-13 10:30:48,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 10:34:32,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"15,582 B out",,
+2026-10-13 10:35:16,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,337 B out",,
+2026-10-13 10:36:36,files,BILLING-WS-07,CREATE C:\Users\rkapoor\Documents\file_5263.csv,"954,542 B x1",,
+2026-10-13 10:40:10,system,RAD-WS-02,[4688] Process created,,,
+2026-10-13 10:44:13,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"12,065 B out",,
+2026-10-13 10:44:57,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,159 B out",,
+2026-10-13 10:54:07,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"24,338 B out",,
+2026-10-13 10:54:19,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 10:54:53,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,087 B out",,
+2026-10-13 10:56:19,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 10:58:43,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_3410.csv,"993,712 B x1",,
+2026-10-13 11:03:42,firewall,HOSP-DC01,ALLOW -> 192.0.2.44:443,"47,729 B out",,
+2026-10-13 11:04:35,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,328 B out",,
+2026-10-13 11:08:21,system,BILLING-WS-07,[4688] Process created,,,
+2026-10-13 11:13:59,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_1790.xlsx,"1,552,716 B x1",,
+2026-10-13 11:14:53,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,581 B out",,
+2026-10-13 11:17:05,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 11:18:40,system,NURSE-WS-B1,[4688] Process created,,,
+2026-10-13 11:25:07,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,140 B out",,
+2026-10-13 11:29:10,files,BILLING-WS-07,MODIFY C:\Users\rkapoor\Documents\file_6596.xlsx,"2,654,806 B x1",,
+2026-10-13 11:29:37,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.80:443,"43,633 B out",,
+2026-10-13 11:35:17,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,036 B out",,
+2026-10-13 11:45:09,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,984 B out,,
+2026-10-13 11:48:10,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 11:55:21,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,309 B out",,
+2026-10-13 12:05:18,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,250 B out",,
+2026-10-13 12:08:10,system,NURSE-WS-B1,[4688] Process created,,,
+2026-10-13 12:15:24,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,101 B out",,
+2026-10-13 12:21:41,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"9,273 B out",,
+2026-10-13 12:25:22,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,579 B out",,
+2026-10-13 12:32:14,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-13 12:34:58,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,305 B out",,
+2026-10-13 12:37:13,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"31,336 B out",,
+2026-10-13 12:37:56,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"23,503 B out",,
+2026-10-13 12:45:18,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,179 B out",,
+2026-10-13 12:48:42,firewall,HOSP-DC01,ALLOW -> 192.0.2.44:443,"36,205 B out",,
+2026-10-13 12:49:07,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"37,301 B out",,
+2026-10-13 12:50:26,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"58,413 B out",,
+2026-10-13 12:51:24,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"33,540 B out",,
+2026-10-13 12:54:04,system,RAD-WS-02,[4688] Process created,,,
+2026-10-13 12:55:11,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,573 B out",,
+2026-10-13 12:56:02,files,RAD-WS-02,MODIFY C:\Users\mnair\Documents\file_7498.docx,"13,709 B x1",,
+2026-10-13 12:56:03,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"3,377 B out",,
+2026-10-13 13:05:24,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,585 B out",,
+2026-10-13 13:06:57,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"15,920 B out",,
+2026-10-13 13:11:05,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"18,187 B out",,
+2026-10-13 13:13:23,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"3,932 B out",,
+2026-10-13 13:15:22,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,130 B out",,
+2026-10-13 13:20:27,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-13 13:24:58,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,965 B out,,
+2026-10-13 13:25:55,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"53,293 B out",,
+2026-10-13 13:25:55,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"44,703 B out",,
+2026-10-13 13:35:05,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,989 B out,,
+2026-10-13 13:36:35,browser,BILLING-WS-07,VISIT hxxps://webmail[.]sunrisemed[.]example/inbox,Webmail,,
+2026-10-13 13:44:54,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,306 B out",,
+2026-10-13 13:47:12,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"8,407 B out",,
+2026-10-13 13:51:01,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"9,389 B out",,
+2026-10-13 13:55:07,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,095 B out",,
+2026-10-13 14:04:40,system,BILLING-WS-07,[SYSMON-10] Process accessed credential store (lsass.exe),Unexpected handle with read access to lsass.exe memory,CREDENTIAL_STORE_ACCESS,Credential Access
+2026-10-13 14:05:05,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,963 B out,,
+2026-10-13 14:05:10,auth,HOSP-DC01,[4625] Failed logon svc_backup,from 10.20.8.17 type 3 FAILURE,,
+2026-10-13 14:05:18,auth,HOSP-DC01,[4625] Failed logon svc_backup,from 10.20.8.17 type 3 FAILURE,,
+2026-10-13 14:05:26,auth,HOSP-DC01,[4625] Failed logon svc_backup,from 10.20.8.17 type 3 FAILURE,,
+2026-10-13 14:05:35,auth,HOSP-DC01,[4625] Failed logon svc_backup,from 10.20.8.17 type 3 FAILURE,,
+2026-10-13 14:05:44,auth,HOSP-DC01,[4625] Failed logon svc_backup,from 10.20.8.17 type 3 FAILURE,,
+2026-10-13 14:05:55,auth,HOSP-DC01,[4625] Failed logon svc_backup,from 10.20.8.17 type 3 FAILURE,,
+2026-10-13 14:06:44,system,RAD-WS-02,[4688] Process created,,,
+2026-10-13 14:07:22,auth,HOSP-DC01,[4624] Successful logon svc_backup,from 10.20.8.17 type 3 SUCCESS,BRUTE_FORCE_THEN_SUCCESS,Credential Access
+2026-10-13 14:14:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,273 B out",,
+2026-10-13 14:17:49,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"13,089 B out",,
+2026-10-13 14:21:28,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.80:443,"26,872 B out",,
+2026-10-13 14:24:29,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,328 B out",,
+2026-10-13 14:34:10,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,944 B out,,
+2026-10-13 14:36:03,system,BILLING-WS-07,[4688] Process created,,,
+2026-10-13 14:37:55,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"30,488 B out",,
+2026-10-13 14:42:35,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"14,801 B out",,
+2026-10-13 14:44:33,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,316 B out",,
+2026-10-13 14:45:17,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"9,573 B out",,
+2026-10-13 14:47:54,firewall,BILLING-WS-07,ALLOW -> 192.0.2.44:443,"12,770 B out",,
+2026-10-13 14:54:21,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,300 B out",,
+2026-10-13 14:54:55,firewall,HOSP-FS01,ALLOW -> 192.0.2.80:443,"21,016 B out",,
+2026-10-13 14:56:08,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"52,049 B out",,
+2026-10-13 15:00:55,files,HOSP-FS01,MODIFY D:\Shares\Billing\file_6421.xlsx,"1,992,976 B x1",,
+2026-10-13 15:04:26,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,316 B out",,
+2026-10-13 15:04:54,browser,RAD-WS-02,VISIT hxxps://intranet[.]sunrisemed[.]example/home,Hospital Intranet,,
+2026-10-13 15:08:27,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"15,868 B out",,
+2026-10-13 15:14:26,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,987 B out,,
+2026-10-13 15:14:54,system,RAD-WS-02,[4688] Process created,,,
+2026-10-13 15:15:21,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"25,487 B out",,
+2026-10-13 15:24:33,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,591 B out",,
+2026-10-13 15:28:31,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"25,530 B out",,
+2026-10-13 15:33:00,files,HOSP-FS01,CREATE D:\Shares\Billing\file_5341.xlsx,"2,119,697 B x1",,
+2026-10-13 15:34:56,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,961 B out,,
+2026-10-13 15:35:47,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"25,421 B out",,
+2026-10-13 15:38:20,system,RAD-WS-02,[4688] Process created,,,
+2026-10-13 15:38:22,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 15:44:38,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,328 B out",,
+2026-10-13 15:44:39,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"19,260 B out",,
+2026-10-13 15:45:24,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-13 15:46:53,files,BILLING-WS-07,MODIFY C:\Users\rkapoor\Documents\file_6360.pdf,"559,879 B x1",,
+2026-10-13 15:47:33,files,BILLING-WS-07,CREATE C:\Users\rkapoor\Documents\file_4712.csv,"2,762,304 B x1",,
+2026-10-13 15:48:29,system,BILLING-WS-07,[4688] Process created,,,
+2026-10-13 15:53:40,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_4359.pdf,"431,737 B x1",,
+2026-10-13 15:54:24,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,580 B out",,
+2026-10-13 15:58:27,files,HOSP-FS01,CREATE D:\Shares\Billing\file_5833.docx,"2,344,023 B x1",,
+2026-10-13 15:59:17,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"50,749 B out",,
+2026-10-13 16:04:47,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,310 B out",,
+2026-10-13 16:12:14,firewall,HOSP-DC01,ALLOW -> 192.0.2.44:443,"20,254 B out",,
+2026-10-13 16:14:38,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,999 B out,,
+2026-10-13 16:15:02,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-13 16:16:46,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"49,301 B out",,
+2026-10-13 16:16:54,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"33,823 B out",,
+2026-10-13 16:24:44,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,905 B out,,
+2026-10-13 16:27:13,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"11,638 B out",,
+2026-10-13 16:34:43,firewall,BILLING-WS-07,ALLOW -> 192.0.2.10:443,"5,376 B out",,
+2026-10-13 16:34:43,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,016 B out",,
+2026-10-13 16:35:26,system,NURSE-WS-B1,[4688] Process created,,,
+2026-10-13 16:44:25,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"29,931 B out",,
+2026-10-13 16:44:40,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,399 B out",,
+2026-10-13 16:48:35,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"44,010 B out",,
+2026-10-13 16:51:30,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"24,817 B out",,
+2026-10-13 16:51:48,files,RAD-WS-02,MODIFY C:\Users\mnair\Documents\file_8665.docx,"1,615,339 B x1",,
+2026-10-13 16:55:03,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,044 B out",,
+2026-10-13 16:55:27,browser,BILLING-WS-07,VISIT hxxps://webmail[.]sunrisemed[.]example/inbox,Webmail,,
+2026-10-13 16:59:37,files,BILLING-WS-07,CREATE C:\Users\rkapoor\Documents\file_2337.csv,"2,494,767 B x1",,
+2026-10-13 17:04:42,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,113 B out",,
+2026-10-13 17:05:46,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.10:443,"48,160 B out",,
+2026-10-13 17:06:40,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 17:11:27,browser,BILLING-WS-07,VISIT hxxps://intranet[.]sunrisemed[.]example/home,Hospital Intranet,,
+2026-10-13 17:13:14,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"52,298 B out",,
+2026-10-13 17:14:41,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,310 B out",,
+2026-10-13 17:24:49,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,927 B out,,
+2026-10-13 17:26:47,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"47,537 B out",,
+2026-10-13 17:32:13,files,HOSP-FS01,MODIFY D:\Shares\Billing\file_9642.csv,"924,074 B x1",,
+2026-10-13 17:34:56,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,556 B out",,
+2026-10-13 17:36:41,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-13 17:41:20,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"3,807 B out",,
+2026-10-13 17:44:10,files,BILLING-WS-07,MODIFY C:\Users\rkapoor\Documents\file_3272.xlsx,"2,052,918 B x1",,
+2026-10-13 17:44:35,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,991 B out,,
+2026-10-13 17:54:37,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,421 B out",,
+2026-10-13 17:55:27,files,HOSP-FS01,CREATE D:\Shares\Billing\file_6693.pdf,"1,530,691 B x1",,
+2026-10-13 17:59:39,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"36,928 B out",,
+2026-10-13 18:00:58,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"24,079 B out",,
+2026-10-13 18:04:42,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,951 B out,,
+2026-10-13 18:08:01,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"47,424 B out",,
+2026-10-13 18:09:54,firewall,HOSP-DC01,ALLOW -> 192.0.2.10:443,"13,816 B out",,
+2026-10-13 18:12:29,auth,NURSE-WS-B1,[4624] Successful logon nurse_b1,from 10.20.7.31 type 2 SUCCESS,,
+2026-10-13 18:14:17,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,434 B out",,
+2026-10-13 18:15:19,firewall,HOSP-DC01,ALLOW -> 192.0.2.44:443,"51,854 B out",,
+2026-10-13 18:17:56,auth,BILLING-WS-07,[4624] Successful logon rkapoor,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 18:20:17,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"48,210 B out",,
+2026-10-13 18:24:24,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,551 B out",,
+2026-10-13 18:34:44,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,458 B out",,
+2026-10-13 18:44:19,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.10:443,"24,197 B out",,
+2026-10-13 18:44:29,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,079 B out",,
+2026-10-13 18:45:54,firewall,HOSP-FS01,ALLOW -> 192.0.2.80:443,"25,962 B out",,
+2026-10-13 18:48:02,files,RAD-WS-02,MODIFY C:\Users\mnair\Documents\file_5029.csv,"2,798,619 B x1",,
+2026-10-13 18:48:39,files,RAD-WS-02,CREATE C:\Users\mnair\Documents\file_8821.csv,"2,212,672 B x1",,
+2026-10-13 18:51:33,files,HOSP-FS01,CREATE D:\Shares\Billing\file_4165.xlsx,"621,174 B x1",,
+2026-10-13 18:52:07,usb,BILLING-WS-07,DEVICE_INSERTED Kingston DataTraveler 3.0 (unregistered),serial 0019E06B1C2A9F31,UNREGISTERED_USB_OFF_HOURS,
+2026-10-13 18:53:30,system,BILLING-WS-07,[4688] Process created from removable drive,E:\sysdiag.exe,EXEC_FROM_REMOVABLE,Lateral Movement
+2026-10-13 18:54:11,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,085 B out",,
+2026-10-13 18:54:42,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-13 18:55:14,files,HOSP-FS01,MODIFY D:\Shares\Billing\file_9705.csv,"2,158,228 B x1",,
+2026-10-13 19:04:02,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-13 19:04:29,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,425 B out",,
+2026-10-13 19:14:33,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,063 B out",,
+2026-10-13 19:20:38,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"47,972 B out",,
+2026-10-13 19:24:09,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,441 B out",,
+2026-10-13 19:28:44,auth,HOSP-FS01,[4624] Successful logon svc_backup,from 10.20.8.17 type 10 SUCCESS,RDP_BY_SERVICE_ACCOUNT,Lateral Movement
+2026-10-13 19:28:45,auth,HOSP-FS01,[4672] Special privileges assigned svc_backup,from 10.20.8.17 type 10 SUCCESS,,
+2026-10-13 19:30:51,system,HOSP-FS01,"[4688] Process created (archiver, staging)",arch.exe a C:\Windows\Temp\stage\stage_%04d.7z D:\Shares\*,DATA_STAGING_TOOL,Collection & Exfiltration
+2026-10-13 19:31:20,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0001.7z,"375,390,208 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 19:34:07,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,576 B out",,
+2026-10-13 19:37:17,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"6,273 B out",,
+2026-10-13 19:37:54,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0002.7z,"373,293,056 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 19:41:40,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"53,105 B out",,
+2026-10-13 19:43:56,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-13 19:44:20,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,332 B out",,
+2026-10-13 19:45:41,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0003.7z,"377,487,360 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 19:49:40,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.80:443,"16,089 B out",,
+2026-10-13 19:53:11,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0004.7z,"364,904,448 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 19:54:03,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,260 B out",,
+2026-10-13 20:01:38,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0005.7z,"391,118,848 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 20:03:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,387 B out",,
+2026-10-13 20:07:46,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0006.7z,"387,973,120 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 20:08:43,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"48,507 B out",,
+2026-10-13 20:09:25,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"37,109 B out",,
+2026-10-13 20:13:57,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,399 B out",,
+2026-10-13 20:14:12,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0007.7z,"360,710,144 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 20:22:40,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0008.7z,"372,244,480 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 20:22:46,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"35,772 B out",,
+2026-10-13 20:24:04,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,159 B out",,
+2026-10-13 20:29:38,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0009.7z,"363,855,872 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 20:34:02,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,985 B out,,
+2026-10-13 20:37:47,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0010.7z,"397,410,304 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 20:42:42,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"28,151 B out",,
+2026-10-13 20:44:25,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,256 B out",,
+2026-10-13 20:45:10,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0011.7z,"356,515,840 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 20:49:36,firewall,BILLING-WS-07,ALLOW -> 192.0.2.80:443,"52,341 B out",,
+2026-10-13 20:53:09,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0012.7z,"364,904,448 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 20:54:18,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,414 B out",,
+2026-10-13 20:59:08,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-13 21:01:00,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0013.7z,"382,730,240 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 21:04:10,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,218 B out",,
+2026-10-13 21:08:32,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0014.7z,"367,001,600 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 21:14:34,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,171 B out",,
+2026-10-13 21:16:40,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0015.7z,"372,244,480 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 21:24:43,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,158 B out",,
+2026-10-13 21:24:47,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0016.7z,"356,515,840 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 21:31:01,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"31,548 B out",,
+2026-10-13 21:33:42,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0017.7z,"383,778,816 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 21:34:36,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,271 B out",,
+2026-10-13 21:34:47,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.44:443,"21,988 B out",,
+2026-10-13 21:37:32,system,NURSE-WS-B1,[4688] Process created,,,
+2026-10-13 21:41:50,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0018.7z,"368,050,176 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 21:42:47,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"58,401 B out",,
+2026-10-13 21:44:22,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,944 B out,,
+2026-10-13 21:45:28,auth,HOSP-DC01,[4624] Successful logon dpatel,from 10.20.1.5 type 2 SUCCESS,,
+2026-10-13 21:47:33,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-13 21:50:20,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0019.7z,"395,313,152 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 21:54:22,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,525 B out",,
+2026-10-13 21:56:53,files,HOSP-FS01,CREATE C:\Windows\Temp\stage\stage_0020.7z,"390,070,272 B x1",DATA_STAGING,Collection & Exfiltration
+2026-10-13 22:04:11,browser,HOSP-FS01,VISIT hxxps://file-drop-secure[.]io/upload,Secure File Drop - Upload,UNTRUSTED_SITE,
+2026-10-13 22:04:18,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,578 B out",,
+2026-10-13 22:04:34,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"53,549 B out",,
+2026-10-13 22:04:50,browser,HOSP-FS01,UPLOAD hxxps://file-drop-secure[.]io/upload/session,Upload session started,WEB_UPLOAD_EXFIL,
+2026-10-13 22:04:55,firewall,HOSP-FS01,ALLOW -> 203.0.113.88:443,"859,832,320 B out",EXFIL_SESSION,Collection & Exfiltration
+2026-10-13 22:05:15,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"4,736 B out",,
+2026-10-13 22:12:11,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"35,839 B out",,
+2026-10-13 22:14:11,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,302 B out",,
+2026-10-13 22:18:50,firewall,HOSP-FS01,ALLOW -> 203.0.113.88:443,"828,375,040 B out",EXFIL_SESSION,Collection & Exfiltration
+2026-10-13 22:19:11,auth,RAD-WS-02,[4624] Successful logon mnair,from 10.20.9.22 type 2 SUCCESS,,
+2026-10-13 22:23:47,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"32,029 B out",,
+2026-10-13 22:24:01,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,281 B out",,
+2026-10-13 22:27:51,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"47,050 B out",,
+2026-10-13 22:28:25,firewall,HOSP-FS01,ALLOW -> 203.0.113.88:443,"849,346,560 B out",EXFIL_SESSION,Collection & Exfiltration
+2026-10-13 22:34:02,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,304 B out",,
+2026-10-13 22:35:52,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"49,681 B out",,
+2026-10-13 22:37:59,firewall,HOSP-FS01,ALLOW -> 203.0.113.88:443,"796,917,760 B out",EXFIL_SESSION,Collection & Exfiltration
+2026-10-13 22:39:34,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"50,115 B out",,
+2026-10-13 22:44:27,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,430 B out",,
+2026-10-13 22:48:39,firewall,HOSP-FS01,ALLOW -> 203.0.113.88:443,"828,375,040 B out",EXFIL_SESSION,Collection & Exfiltration
+2026-10-13 22:49:53,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"45,365 B out",,
+2026-10-13 22:54:20,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,477 B out",,
+2026-10-13 22:56:12,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.80:443,"22,050 B out",,
+2026-10-13 23:01:50,firewall,HOSP-FS01,ALLOW -> 203.0.113.88:443,"838,860,800 B out",EXFIL_SESSION,Collection & Exfiltration
+2026-10-13 23:04:32,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,403 B out",,
+2026-10-13 23:12:41,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"50,057 B out",,
+2026-10-13 23:12:52,firewall,HOSP-FS01,ALLOW -> 203.0.113.88:443,"817,889,280 B out",EXFIL_SESSION,Collection & Exfiltration
+2026-10-13 23:14:19,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,103 B out",,
+2026-10-13 23:24:07,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,452 B out",,
+2026-10-13 23:25:08,firewall,HOSP-DC01,ALLOW -> 192.0.2.44:443,"53,948 B out",,
+2026-10-13 23:25:10,firewall,HOSP-FS01,ALLOW -> 203.0.113.88:443,"812,646,400 B out",EXFIL_SESSION,Collection & Exfiltration
+2026-10-13 23:25:15,firewall,HOSP-DC01,ALLOW -> 192.0.2.44:443,"48,572 B out",,
+2026-10-13 23:29:55,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"58,509 B out",,
+2026-10-13 23:34:15,firewall,HOSP-FS01,ALLOW -> 203.0.113.88:443,"812,646,400 B out",EXFIL_SESSION,Collection & Exfiltration
+2026-10-13 23:34:24,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,589 B out",,
+2026-10-13 23:35:09,firewall,RAD-WS-02,ALLOW -> 192.0.2.80:443,"50,368 B out",,
+2026-10-13 23:44:27,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,030 B out",,
+2026-10-13 23:49:09,firewall,HOSP-FS01,ALLOW -> 192.0.2.10:443,"34,455 B out",,
+2026-10-13 23:53:54,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.44:443,"39,387 B out",,
+2026-10-13 23:54:12,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,568 B out",,
+2026-10-14 00:04:37,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,946 B out,,
+2026-10-14 00:05:39,firewall,HOSP-FS01,ALLOW -> 192.0.2.44:443,"10,271 B out",,
+2026-10-14 00:14:43,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,051 B out",,
+2026-10-14 00:20:58,auth,BILLING-WS-07,[4624] Successful logon asingh,from 10.20.8.17 type 2 SUCCESS,,
+2026-10-14 00:24:29,firewall,NURSE-WS-B1,ALLOW -> 192.0.2.80:443,"9,649 B out",,
+2026-10-14 00:24:30,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,989 B out,,
+2026-10-14 00:26:07,system,NURSE-WS-B1,[4688] Process created,,,
+2026-10-14 00:28:13,firewall,HOSP-DC01,ALLOW -> 192.0.2.80:443,"8,646 B out",,
+2026-10-14 00:34:36,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,943 B out,,
+2026-10-14 00:44:23,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,988 B out,,
+2026-10-14 00:48:25,firewall,RAD-WS-02,ALLOW -> 192.0.2.10:443,"17,480 B out",,
+2026-10-14 00:48:41,system,BILLING-WS-07,[4688] Process created,,,
+2026-10-14 00:54:34,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,372 B out",,
+2026-10-14 00:59:35,firewall,HOSP-EHR-DB01,ALLOW -> 192.0.2.80:443,"26,304 B out",,
+2026-10-14 01:04:19,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,043 B out",,
+2026-10-14 01:14:33,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,248 B out",,
+2026-10-14 01:24:46,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,507 B out",,
+2026-10-14 01:34:54,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,239 B out",,
+2026-10-14 01:44:43,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,487 B out",,
+2026-10-14 01:54:47,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,085 B out",,
+2026-10-14 01:58:30,system,HOSP-FS01,[4688] Process created (shadow copy deletion),vssadmin.exe delete shadows /all /quiet,RECOVERY_INHIBITION,Defense Evasion / Recovery Denial
+2026-10-14 02:00:15,system,HOSP-FS01,[7036] Service stopped: HospBackupAgent,HospBackupAgent entered the stopped state,SECURITY_OR_BACKUP_SERVICE_STOPPED,Defense Evasion / Recovery Denial
+2026-10-14 02:03:00,system,HOSP-FS01,[7045] New service installed: OmegaSvc (auto-start),C:\ProgramData\Microsoft\OfficeSync\omegasvc.exe,NEW_AUTOSTART_SERVICE,Impact
+2026-10-14 02:03:00,files,HOSP-FS01,CREATE C:\ProgramData\Microsoft\OfficeSync\omegasvc.exe,"884,736 B x1",RANSOMWARE_BINARY_DROPPED,Impact
+2026-10-14 02:04:28,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,124 B out",,
+2026-10-14 02:14:34,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,926 B out,,
+2026-10-14 02:17:03,system,HOSP-FS01,[4688] Process created (service start),C:\ProgramData\Microsoft\OfficeSync\omegasvc.exe,RANSOMWARE_EXECUTION,Impact
+2026-10-14 02:17:03,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00008.pdf.omega,"600,103 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:03,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00304.pdf.omega,"1,822,493 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:03,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00437.pdf.omega,"3,994,840 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:03,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00477.pdf.omega,"2,579,356 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:04,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00054.pdf.omega,"160,569 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:04,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00057.pdf.omega,"1,512,838 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:04,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00132.pdf.omega,"3,726,973 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:04,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00154.pdf.omega,"2,274,922 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:04,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00209.pdf.omega,"1,735,956 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:04,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00260.pdf.omega,"2,895,319 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:04,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00399.pdf.omega,"2,253,910 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:04,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00427.pdf.omega,"2,950,222 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:05,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00165.pdf.omega,"818,246 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:05,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00348.pdf.omega,"2,191,320 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:06,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00067.pdf.omega,"1,820,767 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:06,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00188.pdf.omega,"2,779,514 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:06,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00219.pdf.omega,"3,179,445 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:06,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00361.pdf.omega,"2,887,757 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:06,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00448.pdf.omega,"1,654,180 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:07,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00129.pdf.omega,"2,361,805 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:07,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00134.pdf.omega,"3,636,325 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:07,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00300.pdf.omega,"3,754,964 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:07,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00439.pdf.omega,"2,131,410 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:08,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00164.pdf.omega,"1,955,820 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:08,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00447.pdf.omega,"841,261 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:10,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00236.pdf.omega,"3,516,523 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:10,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00327.pdf.omega,"2,149,707 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:11,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00438.pdf.omega,"3,487,126 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:12,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00042.pdf.omega,"488,865 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:13,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00023.pdf.omega,"792,313 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:14,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00189.pdf.omega,"2,223,984 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:14,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00278.pdf.omega,"2,814,795 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:15,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00030.pdf.omega,"3,292,238 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:16,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00418.pdf.omega,"3,920,168 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:17,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00136.pdf.omega,"3,616,123 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:17,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00255.pdf.omega,"1,398,889 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:19,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00027.pdf.omega,"196,274 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:19,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00123.pdf.omega,"2,505,348 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:19,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00417.pdf.omega,"95,611 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:20,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00157.pdf.omega,"3,229,385 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:21,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00143.pdf.omega,"2,730,094 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:22,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00187.pdf.omega,"722,115 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:24,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00380.pdf.omega,"957,455 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:31,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00299.pdf.omega,"268,090 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:35,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00210.pdf.omega,"83,366 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:35,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00407.pdf.omega,"2,247,035 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:36,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00283.pdf.omega,"3,192,030 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:38,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00262.pdf.omega,"321,320 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:39,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00244.pdf.omega,"32,631 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:39,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00261.pdf.omega,"37,776 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:41,files,HOSP-FS01,CREATE D:\Shares\Billing\Claims\README_OMEGA.txt,"1,081 B x1",RANSOM_NOTE_CREATED,Impact
+2026-10-14 02:17:42,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00423.pdf.omega,"3,344,057 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:44,files,HOSP-FS01,CREATE D:\Shares\Billing\Invoices\README_OMEGA.txt,"1,081 B x1",RANSOM_NOTE_CREATED,Impact
+2026-10-14 02:17:46,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00009.pdf.omega,"1,788,501 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:47,files,HOSP-FS01,CREATE D:\Shares\Radiology\Reports\README_OMEGA.txt,"1,081 B x1",RANSOM_NOTE_CREATED,Impact
+2026-10-14 02:17:48,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00053.pdf.omega,"2,729,544 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:48,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00459.pdf.omega,"2,930,015 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:49,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00066.pdf.omega,"2,992,243 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:50,files,HOSP-FS01,CREATE D:\Shares\Pathology\Results\README_OMEGA.txt,"1,081 B x1",RANSOM_NOTE_CREATED,Impact
+2026-10-14 02:17:51,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00084.pdf.omega,"631,923 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:51,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00139.pdf.omega,"920,548 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:53,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00274.pdf.omega,"236,614 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:54,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00097.pdf.omega,"1,740,307 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:56,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00334.pdf.omega,"594,100 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:56,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00460.pdf.omega,"1,587,700 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:57,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00112.pdf.omega,"3,546,927 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:58,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00016.pdf.omega,"2,971,969 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:58,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00395.pdf.omega,"1,016,755 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:59,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00294.pdf.omega,"2,572,247 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:17:59,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00453.pdf.omega,"2,404,085 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:08,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00377.pdf.omega,"3,704,124 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:09,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00346.pdf.omega,"48,990 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:11,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00431.pdf.omega,"2,863,989 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:12,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00144.pdf.omega,"447,486 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:13,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00480.pdf.omega,"3,162,675 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:15,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00068.pdf.omega,"1,658,608 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:20,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00169.pdf.omega,"3,421,172 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:22,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00041.pdf.omega,"598,020 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:23,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00352.pdf.omega,"902,753 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:24,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00469.pdf.omega,"3,829,185 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:34,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00153.pdf.omega,"1,329,542 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:34,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00182.pdf.omega,"1,697,305 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:36,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00243.pdf.omega,"1,749,558 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:36,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00301.pdf.omega,"3,542,930 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:37,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00451.pdf.omega,"1,828,113 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:46,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00371.pdf.omega,"2,181,827 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:48,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00342.pdf.omega,"1,865,741 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:51,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00127.pdf.omega,"208,396 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:54,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00488.pdf.omega,"211,074 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:55,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00355.pdf.omega,"1,635,972 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:56,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00270.pdf.omega,"1,578,051 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:56,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00289.pdf.omega,"3,845,715 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:18:59,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00141.pdf.omega,"3,835,092 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:00,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00091.pdf.omega,"2,105,071 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:00,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00383.pdf.omega,"750,770 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:02,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00029.pdf.omega,"2,050,643 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:03,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00044.pdf.omega,"912,431 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:05,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00040.pdf.omega,"23,514 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:05,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00472.pdf.omega,"2,031,867 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:08,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00078.pdf.omega,"2,401,573 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:09,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00392.pdf.omega,"550,577 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:13,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00252.pdf.omega,"3,897,313 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:13,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00457.pdf.omega,"675,599 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:16,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00148.pdf.omega,"2,405,653 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:19,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00296.pdf.omega,"3,911,084 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:21,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00315.pdf.omega,"3,657,812 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:22,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00105.pdf.omega,"1,144,925 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:22,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00415.pdf.omega,"1,985,668 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:25,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00485.pdf.omega,"2,161,126 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:29,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00281.pdf.omega,"1,586,512 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:33,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00402.pdf.omega,"934,513 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:35,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00142.pdf.omega,"2,618,865 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:36,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00408.pdf.omega,"2,909,909 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:38,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00161.pdf.omega,"1,403,017 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:40,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00092.pdf.omega,"1,739,319 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:41,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00229.pdf.omega,"2,334,946 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:44,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00335.pdf.omega,"3,609,002 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:47,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00322.pdf.omega,"3,540,172 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:50,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00466.pdf.omega,"2,160,435 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:53,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00421.pdf.omega,"1,586,032 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:54,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00403.pdf.omega,"565,926 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:54,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00462.pdf.omega,"2,831,251 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:55,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00017.pdf.omega,"1,992,385 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:56,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00024.pdf.omega,"2,525,321 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:19:58,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00320.pdf.omega,"706,223 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:02,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00146.pdf.omega,"851,444 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:04,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00124.pdf.omega,"3,742,971 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:05,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00337.pdf.omega,"3,280,599 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:09,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00100.pdf.omega,"1,417,272 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:10,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00206.pdf.omega,"3,592,822 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:12,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00099.pdf.omega,"2,542,492 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:12,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00227.pdf.omega,"3,936,757 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:12,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00464.pdf.omega,"3,401,822 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:13,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00471.pdf.omega,"2,001,728 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:15,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00170.pdf.omega,"1,283,143 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:15,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00215.pdf.omega,"62,156 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:18,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00095.pdf.omega,"529,554 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:19,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00474.pdf.omega,"2,085,007 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:20,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00192.pdf.omega,"1,195,022 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:21,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00456.pdf.omega,"2,908,456 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:25,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00101.pdf.omega,"3,707,896 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:28,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00126.pdf.omega,"1,310,973 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:29,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00058.pdf.omega,"391,997 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:33,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00176.pdf.omega,"734,042 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:35,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00098.pdf.omega,"3,753,965 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:38,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00405.pdf.omega,"716,378 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:41,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00416.pdf.omega,"2,603,601 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:46,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00265.pdf.omega,"3,496,328 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:46,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00345.pdf.omega,"2,122,259 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:47,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00363.pdf.omega,"969,857 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:52,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00163.pdf.omega,"2,456,365 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:53,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00484.pdf.omega,"3,669,492 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:20:56,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00018.pdf.omega,"2,892,526 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:02,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00379.pdf.omega,"3,632,902 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:04,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00076.pdf.omega,"1,594,174 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:04,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00310.pdf.omega,"31,897 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:05,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00364.pdf.omega,"1,760,706 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:06,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00237.pdf.omega,"764,082 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:06,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00390.pdf.omega,"456,203 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:09,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00330.pdf.omega,"3,699,194 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:12,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00324.pdf.omega,"783,437 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:16,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00022.pdf.omega,"2,232,598 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:17,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00387.pdf.omega,"3,320,638 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:19,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00004.pdf.omega,"2,444,213 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:19,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00181.pdf.omega,"919,557 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:23,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00026.pdf.omega,"3,111,854 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:23,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00370.pdf.omega,"1,954,085 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:24,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00070.pdf.omega,"763,283 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:29,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00031.pdf.omega,"1,434,248 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:29,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00297.pdf.omega,"1,224,278 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:37,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00183.pdf.omega,"2,864,725 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:40,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00062.pdf.omega,"1,866,695 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:49,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00226.pdf.omega,"2,068,744 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:50,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00088.pdf.omega,"3,739,656 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:50,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00246.pdf.omega,"1,933,137 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:51,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00340.pdf.omega,"1,640,475 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:53,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00043.pdf.omega,"700,466 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:54,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00336.pdf.omega,"896,736 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:21:57,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00223.pdf.omega,"1,914,547 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:01,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00275.pdf.omega,"1,008,977 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:09,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00103.pdf.omega,"909,132 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:10,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00311.pdf.omega,"895,717 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:11,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00060.pdf.omega,"1,893,158 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:13,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00045.pdf.omega,"2,327,828 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:13,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00184.pdf.omega,"1,120,489 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:14,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00151.pdf.omega,"2,370,622 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:15,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00316.pdf.omega,"1,700,999 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:17,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00120.pdf.omega,"449,310 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:17,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00397.pdf.omega,"1,204,169 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:20,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00001.pdf.omega,"148,267 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:22,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00111.pdf.omega,"2,751,256 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:23,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00019.pdf.omega,"492,044 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:29,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00085.pdf.omega,"1,979,867 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:30,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00086.pdf.omega,"182,390 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:30,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00354.pdf.omega,"1,970,979 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:31,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00394.pdf.omega,"26,784 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:33,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00038.pdf.omega,"457,859 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:33,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00483.pdf.omega,"2,178,363 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:34,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00382.pdf.omega,"3,765,598 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:40,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00195.pdf.omega,"2,738,933 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:47,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00428.pdf.omega,"1,578,877 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:49,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00089.pdf.omega,"222,119 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:49,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00479.pdf.omega,"3,595,171 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:51,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00470.pdf.omega,"363,228 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:53,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00271.pdf.omega,"2,410,425 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:57,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00015.pdf.omega,"3,156,135 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:57,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00396.pdf.omega,"908,329 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:22:58,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00203.pdf.omega,"674,419 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:00,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00145.pdf.omega,"3,837,775 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:06,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00444.pdf.omega,"794,137 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:08,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00384.pdf.omega,"993,633 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:10,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00349.pdf.omega,"1,277,200 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:11,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00002.pdf.omega,"3,521,421 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:11,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00298.pdf.omega,"2,956,025 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:12,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00104.pdf.omega,"2,334,203 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:16,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00025.pdf.omega,"204,599 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:16,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00372.pdf.omega,"1,443,460 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:22,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00178.pdf.omega,"3,262,228 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:29,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00319.pdf.omega,"2,415,869 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:30,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00073.pdf.omega,"201,551 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:34,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00096.pdf.omega,"3,848,064 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:37,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00321.pdf.omega,"910,073 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:40,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00049.pdf.omega,"3,452,496 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:41,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00353.pdf.omega,"2,009,447 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:47,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00035.pdf.omega,"3,079,466 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:51,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00051.pdf.omega,"82,222 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:52,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00412.pdf.omega,"2,884,947 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:58,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00263.pdf.omega,"2,969,864 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:23:59,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00128.pdf.omega,"3,147,574 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:04,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00109.pdf.omega,"3,902,846 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:08,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00306.pdf.omega,"1,334,692 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:11,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00122.pdf.omega,"3,268,079 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:12,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00279.pdf.omega,"1,507,771 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:12,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00360.pdf.omega,"2,227,592 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:13,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00152.pdf.omega,"1,960,102 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:13,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00366.pdf.omega,"1,289,497 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:14,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00420.pdf.omega,"433,176 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:18,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00385.pdf.omega,"3,447,513 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:24,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00291.pdf.omega,"948,800 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:32,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00276.pdf.omega,"1,362,326 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:32,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00373.pdf.omega,"1,345,517 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:36,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00357.pdf.omega,"921,534 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:37,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00175.pdf.omega,"1,479,251 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:40,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00467.pdf.omega,"3,701,694 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:47,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00168.pdf.omega,"1,533,764 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:51,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00117.pdf.omega,"1,898,199 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:53,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00436.pdf.omega,"974,174 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:57,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00249.pdf.omega,"3,758,340 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:24:58,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,062 B out",,
+2026-10-14 02:25:01,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00307.pdf.omega,"1,988,746 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:03,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00090.pdf.omega,"3,319,773 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:04,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00429.pdf.omega,"1,573,758 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:05,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00356.pdf.omega,"2,569,277 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:07,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00213.pdf.omega,"1,848,373 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:11,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00177.pdf.omega,"987,055 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:12,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00028.pdf.omega,"444,453 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:15,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00202.pdf.omega,"3,009,919 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:15,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00212.pdf.omega,"2,706,067 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:16,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00449.pdf.omega,"2,388,719 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:18,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00133.pdf.omega,"933,021 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:21,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00368.pdf.omega,"2,374,542 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:23,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00131.pdf.omega,"1,075,894 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:25,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00323.pdf.omega,"2,870,703 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:26,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00328.pdf.omega,"1,452,583 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:27,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00072.pdf.omega,"2,933,181 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:28,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00358.pdf.omega,"1,696,550 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:29,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00231.pdf.omega,"413,267 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:29,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00369.pdf.omega,"1,775,208 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:36,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00482.pdf.omega,"883,506 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:37,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00173.pdf.omega,"3,116,718 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:41,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00305.pdf.omega,"3,261,704 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:44,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00196.pdf.omega,"1,541,423 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:52,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00064.pdf.omega,"3,660,107 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:53,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00312.pdf.omega,"1,014,506 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:58,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00046.pdf.omega,"3,929,790 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:58,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00204.pdf.omega,"866,382 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:25:58,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00481.pdf.omega,"2,429,279 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:00,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00007.pdf.omega,"3,741,127 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:03,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00259.pdf.omega,"1,248,434 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:07,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00225.pdf.omega,"2,470,516 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:13,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00071.pdf.omega,"2,333,203 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:13,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00338.pdf.omega,"1,110,304 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:17,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00216.pdf.omega,"3,333,097 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:22,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00285.pdf.omega,"3,974,667 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:27,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00140.pdf.omega,"2,349,938 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:40,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00036.pdf.omega,"3,961,113 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:40,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00266.pdf.omega,"3,835,065 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:42,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00003.pdf.omega,"745,817 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:42,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00347.pdf.omega,"3,779,524 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:50,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00011.pdf.omega,"3,053,270 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:52,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00174.pdf.omega,"2,847,206 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:54,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00440.pdf.omega,"2,784,329 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:26:55,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00413.pdf.omega,"2,701,538 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:02,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00115.pdf.omega,"1,105,661 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:04,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00047.pdf.omega,"943,809 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:05,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00032.pdf.omega,"3,531,360 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:06,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00230.pdf.omega,"3,541,726 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:10,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00061.pdf.omega,"1,528,374 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:11,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00013.pdf.omega,"1,484,550 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:18,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00441.pdf.omega,"2,453,555 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:19,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00228.pdf.omega,"2,607,271 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:22,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00010.pdf.omega,"62,676 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:27,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00234.pdf.omega,"2,632,178 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:27,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00452.pdf.omega,"2,830,889 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:29,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00119.pdf.omega,"2,237,517 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:32,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00208.pdf.omega,"1,394,792 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:34,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00314.pdf.omega,"3,827,339 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:40,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00075.pdf.omega,"3,012,275 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:40,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00378.pdf.omega,"1,300,102 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:48,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00005.pdf.omega,"1,098,718 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:48,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00273.pdf.omega,"3,759,082 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:49,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00034.pdf.omega,"2,571,844 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:51,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00207.pdf.omega,"386,037 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:27:53,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00052.pdf.omega,"1,351,051 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:01,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00388.pdf.omega,"3,263,532 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:02,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00171.pdf.omega,"1,521,631 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:08,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00130.pdf.omega,"3,610,596 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:11,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00205.pdf.omega,"2,369,568 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:14,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00253.pdf.omega,"209,403 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:21,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00419.pdf.omega,"1,289,392 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:24,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00074.pdf.omega,"3,129,032 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:25,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00106.pdf.omega,"3,211,601 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:26,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00239.pdf.omega,"2,243,589 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:30,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00194.pdf.omega,"3,603,740 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:46,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00218.pdf.omega,"1,899,229 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:52,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00280.pdf.omega,"487,717 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:56,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00376.pdf.omega,"2,716,029 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:57,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00241.pdf.omega,"2,555,480 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:58,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00110.pdf.omega,"48,712 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:28:58,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00250.pdf.omega,"2,617,319 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:06,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00000.pdf.omega,"386,581 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:07,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00389.pdf.omega,"3,445,396 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:08,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00284.pdf.omega,"101,949 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:10,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00158.pdf.omega,"3,770,762 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:10,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00190.pdf.omega,"89,914 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:10,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00393.pdf.omega,"23,242 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:13,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00221.pdf.omega,"2,250,442 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:23,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00329.pdf.omega,"2,452,029 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:29,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00455.pdf.omega,"395,258 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:30,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00282.pdf.omega,"148,482 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:31,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00235.pdf.omega,"1,352,540 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:35,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00082.pdf.omega,"793,875 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:38,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00222.pdf.omega,"3,976,486 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:40,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00199.pdf.omega,"2,108,823 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:41,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00083.pdf.omega,"2,644,866 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:52,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00465.pdf.omega,"1,283,919 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:54,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00138.pdf.omega,"3,607,845 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:29:57,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00162.pdf.omega,"3,509,883 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:06,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00137.pdf.omega,"3,948,187 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:09,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00118.pdf.omega,"3,523,111 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:23,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00433.pdf.omega,"3,336,799 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:29,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00374.pdf.omega,"1,689,822 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:34,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00048.pdf.omega,"1,904,558 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:36,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00414.pdf.omega,"839,396 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:41,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00033.pdf.omega,"1,010,440 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:41,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00186.pdf.omega,"2,512,817 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:46,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00341.pdf.omega,"2,246,354 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:30:51,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00200.pdf.omega,"1,116,457 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:02,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00359.pdf.omega,"1,043,628 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:02,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00381.pdf.omega,"2,835,681 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:04,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00079.pdf.omega,"1,393,116 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:18,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00432.pdf.omega,"3,990,074 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:25,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00156.pdf.omega,"3,270,343 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:33,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00121.pdf.omega,"3,858,110 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:33,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00404.pdf.omega,"815,273 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:45,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00087.pdf.omega,"2,261,674 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:45,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00489.pdf.omega,"2,186,121 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:31:56,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00475.pdf.omega,"137,413 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:07,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00267.pdf.omega,"3,542,500 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:08,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00232.pdf.omega,"1,314,265 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:13,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00147.pdf.omega,"3,553,954 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:13,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00179.pdf.omega,"3,922,960 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:15,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00055.pdf.omega,"1,016,425 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:16,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00443.pdf.omega,"3,643,961 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:18,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00268.pdf.omega,"3,563,984 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:21,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00446.pdf.omega,"2,733,301 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:24,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00331.pdf.omega,"3,623,675 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:35,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00398.pdf.omega,"2,302,600 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:36,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00108.pdf.omega,"3,130,451 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:41,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00248.pdf.omega,"3,099,440 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:50,auth,HOSP-EHR-DB01,[4624] Successful logon svc_backup,from 10.20.5.10 type 3 SUCCESS,LATERAL_SPREAD_FS_TO_EHR,Lateral Movement
+2026-10-14 02:32:50,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00318.pdf.omega,"2,377,794 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:50,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00409.pdf.omega,"1,975,849 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:32:58,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00400.pdf.omega,"1,650,491 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:04,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00290.pdf.omega,"3,835,065 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:05,system,HOSP-EHR-DB01,[7036] Service stopped: EHR-SQL,EHR-SQL entered the stopped state (not scheduled),SECURITY_OR_BACKUP_SERVICE_STOPPED,Defense Evasion / Recovery Denial
+2026-10-14 02:33:08,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00113.pdf.omega,"575,706 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:09,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00059.pdf.omega,"1,460,978 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:10,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0063.mdf.omega,"14,023,951 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:14,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00292.pdf.omega,"2,158,833 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:14,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0076.mdf.omega,"52,485,424 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:16,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00343.pdf.omega,"678,246 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:19,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0033.mdf.omega,"82,207,475 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:24,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00254.pdf.omega,"2,980,116 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:25,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00362.pdf.omega,"2,497,740 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:31,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00325.pdf.omega,"1,601,193 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:31,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0104.mdf.omega,"65,359,386 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:35,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00286.pdf.omega,"3,391,231 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:35,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00434.pdf.omega,"1,154,583 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:40,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0047.mdf.omega,"24,401,329 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:40,files,HOSP-EHR-DB01,CREATE E:\EHR\README_OMEGA.txt,"1,081 B x1",RANSOM_NOTE_CREATED,Impact
+2026-10-14 02:33:41,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0034.mdf.omega,"18,041,693 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:44,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00468.pdf.omega,"1,740,278 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:46,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00107.pdf.omega,"2,092,790 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:52,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00461.pdf.omega,"247,415 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:57,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0011.mdf.omega,"30,223,309 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:33:58,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0094.mdf.omega,"47,684,000 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:04,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00167.pdf.omega,"1,037,313 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:05,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00293.pdf.omega,"71,925 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:05,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00425.pdf.omega,"2,885,115 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:15,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0008.mdf.omega,"74,400,929 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:19,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00339.pdf.omega,"1,079,469 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:22,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0086.mdf.omega,"82,593,165 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:28,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00135.pdf.omega,"3,432,245 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:35,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00012.pdf.omega,"3,857,007 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:40,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00116.pdf.omega,"2,293,062 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:42,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00257.pdf.omega,"924,174 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:43,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00333.pdf.omega,"2,702,117 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:43,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00476.pdf.omega,"1,888,777 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:43,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0088.mdf.omega,"44,319,119 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:49,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00386.pdf.omega,"2,550,867 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:51,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00326.pdf.omega,"1,916,952 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:52,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00454.pdf.omega,"3,647,335 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:55,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00450.pdf.omega,"417,378 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:34:57,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00211.pdf.omega,"1,304,440 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:00,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00277.pdf.omega,"497,175 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:01,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00014.pdf.omega,"1,312,518 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:01,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00240.pdf.omega,"2,381,664 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:02,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00486.pdf.omega,"2,569,431 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:02,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0097.mdf.omega,"30,561,989 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:06,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00021.pdf.omega,"84,821 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:06,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0018.mdf.omega,"57,598,750 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:06,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0082.mdf.omega,"66,691,607 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:10,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00251.pdf.omega,"1,385,446 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:14,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,561 B out",,
+2026-10-14 02:35:14,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00445.pdf.omega,"3,725,731 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:19,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0027.mdf.omega,"54,720,251 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:20,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0109.mdf.omega,"17,681,882 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:21,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00442.pdf.omega,"2,717,273 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:26,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00258.pdf.omega,"1,575,598 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:34,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00426.pdf.omega,"2,027,514 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:35,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0051.mdf.omega,"19,632,895 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:39,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00256.pdf.omega,"807,058 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:41,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00272.pdf.omega,"433,548 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:57,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00093.pdf.omega,"3,997,361 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:57,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00401.pdf.omega,"1,757,050 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:35:57,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0016.mdf.omega,"12,756,284 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:07,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00430.pdf.omega,"165,935 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:19,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0019.mdf.omega,"16,614,771 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:25,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0062.mdf.omega,"30,269,946 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:25,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0081.mdf.omega,"31,040,360 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:36,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00125.pdf.omega,"3,854,607 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:38,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0102.mdf.omega,"43,107,257 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:44,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00302.pdf.omega,"3,324,142 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:50,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00160.pdf.omega,"3,189,569 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:52,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00197.pdf.omega,"3,301,116 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:55,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00295.pdf.omega,"3,087,521 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:57,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0046.mdf.omega,"57,276,304 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:36:59,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00287.pdf.omega,"2,359,158 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:01,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0092.mdf.omega,"76,103,957 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:03,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00309.pdf.omega,"3,891,717 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:04,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0037.mdf.omega,"39,146,431 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:07,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00224.pdf.omega,"416,065 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:07,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0113.mdf.omega,"24,375,129 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:09,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00180.pdf.omega,"969,100 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:10,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0118.mdf.omega,"30,864,597 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:13,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00214.pdf.omega,"2,548,338 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:18,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00069.pdf.omega,"3,224,646 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:21,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00247.pdf.omega,"3,828,650 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:26,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00375.pdf.omega,"827,509 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:32,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00288.pdf.omega,"2,544,244 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:32,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0072.mdf.omega,"65,716,169 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:35,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00185.pdf.omega,"3,466,974 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:36,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00458.pdf.omega,"2,846,704 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:36,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0119.mdf.omega,"5,819,365 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:39,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00344.pdf.omega,"1,382,101 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:40,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00201.pdf.omega,"3,668,022 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:46,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0022.mdf.omega,"22,275,543 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:46,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0083.mdf.omega,"63,146,524 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:49,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00094.pdf.omega,"3,497,744 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:52,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0041.mdf.omega,"41,057,593 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:37:56,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00487.pdf.omega,"3,874,808 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:01,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0059.mdf.omega,"64,369,406 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:03,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0048.mdf.omega,"25,894,653 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:04,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00463.pdf.omega,"582,566 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:07,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00063.pdf.omega,"1,830,376 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:12,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00080.pdf.omega,"3,311,887 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:15,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00435.pdf.omega,"3,568,984 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:15,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0077.mdf.omega,"42,004,292 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:19,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00198.pdf.omega,"491,917 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:24,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00350.pdf.omega,"1,263,163 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:24,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0066.mdf.omega,"70,188,310 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:26,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00303.pdf.omega,"947,401 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:29,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00114.pdf.omega,"406,192 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:30,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00149.pdf.omega,"2,176,033 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:32,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00238.pdf.omega,"1,663,655 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:35,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00365.pdf.omega,"2,501,438 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:36,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0030.mdf.omega,"19,821,040 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:43,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0005.mdf.omega,"46,937,698 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:48,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00269.pdf.omega,"1,435,396 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:51,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0115.mdf.omega,"78,175,193 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:56,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0024.mdf.omega,"14,730,266 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:57,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00308.pdf.omega,"2,636,175 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:58,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00473.pdf.omega,"2,658,654 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:59,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0028.mdf.omega,"77,523,939 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:38:59,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0040.mdf.omega,"27,402,532 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:04,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00191.pdf.omega,"1,545,336 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:06,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00424.pdf.omega,"560,279 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:12,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00050.pdf.omega,"354,479 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:12,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0090.mdf.omega,"84,677,139 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:15,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00410.pdf.omega,"434,532 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:18,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0106.mdf.omega,"54,511,037 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:20,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0013.mdf.omega,"19,241,112 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:21,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0014.mdf.omega,"87,256,490 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:30,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00264.pdf.omega,"1,884,609 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:30,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0101.mdf.omega,"85,452,279 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:39,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00150.pdf.omega,"187,033 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:39,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00242.pdf.omega,"1,333,551 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:39,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00406.pdf.omega,"2,155,804 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:41,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00313.pdf.omega,"3,281,570 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:41,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0044.mdf.omega,"53,312,849 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:43,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00245.pdf.omega,"3,200,811 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:48,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0000.mdf.omega,"13,346,134 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:48,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0026.mdf.omega,"73,051,643 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:51,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00155.pdf.omega,"83,012 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:51,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0111.mdf.omega,"63,096,738 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:39:53,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00077.pdf.omega,"1,150,259 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:00,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0087.mdf.omega,"68,221,453 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:05,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00367.pdf.omega,"3,051,281 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:14,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00166.pdf.omega,"2,301,017 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:15,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00102.pdf.omega,"2,180,348 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:17,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00159.pdf.omega,"104,279 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:21,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0012.mdf.omega,"24,848,897 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:22,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00317.pdf.omega,"898,464 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:26,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00056.pdf.omega,"1,638,899 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:29,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0064.mdf.omega,"25,453,986 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:32,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0096.mdf.omega,"58,091,213 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:39,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00172.pdf.omega,"3,668,126 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:40,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00351.pdf.omega,"1,874,229 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:40,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0060.mdf.omega,"82,031,171 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:43,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0004.mdf.omega,"54,859,899 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:45,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00332.pdf.omega,"3,330,081 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:45,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00391.pdf.omega,"1,392,219 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:47,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00037.pdf.omega,"557,267 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:54,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00478.pdf.omega,"1,337,826 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:56,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00081.pdf.omega,"3,214,543 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:59,files,HOSP-FS01,RENAME D:\Shares\Billing\Invoices\record_00020.pdf.omega,"2,777,914 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:40:59,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0039.mdf.omega,"41,406,459 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:05,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00193.pdf.omega,"1,495,229 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:05,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00233.pdf.omega,"3,333,125 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:08,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0070.mdf.omega,"20,171,326 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:09,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0056.mdf.omega,"89,261,622 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:17,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0074.mdf.omega,"41,727,215 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:20,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00220.pdf.omega,"2,216,496 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:23,files,HOSP-FS01,RENAME D:\Shares\Pharmacy\Orders\record_00217.pdf.omega,"428,128 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:23,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0002.mdf.omega,"9,718,341 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:24,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0079.mdf.omega,"12,658,485 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:25,files,HOSP-FS01,RENAME D:\Shares\Billing\Claims\record_00422.pdf.omega,"3,975,699 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:26,files,HOSP-FS01,RENAME D:\Shares\Pathology\Results\record_00411.pdf.omega,"2,329,240 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:27,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00065.pdf.omega,"464,476 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:34,files,HOSP-FS01,RENAME D:\Shares\Admin\HR\record_00039.pdf.omega,"3,271,469 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:34,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0107.mdf.omega,"87,384,080 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:36,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0075.mdf.omega,"7,223,906 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:37,files,HOSP-FS01,RENAME D:\Shares\Radiology\Reports\record_00006.pdf.omega,"3,815,637 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:38,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0006.mdf.omega,"7,939,890 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:41,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0054.mdf.omega,"44,341,620 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:41:58,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0049.mdf.omega,"15,605,486 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:42:15,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0017.mdf.omega,"75,706,299 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:42:26,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0043.mdf.omega,"88,933,943 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:42:36,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0007.mdf.omega,"53,949,468 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:42:36,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0025.mdf.omega,"63,801,478 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:42:37,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0023.mdf.omega,"52,052,908 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:42:43,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0052.mdf.omega,"17,759,101 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:42:44,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0085.mdf.omega,"45,283,520 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:42:55,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0100.mdf.omega,"59,448,401 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:42:56,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0089.mdf.omega,"45,728,747 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:01,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0021.mdf.omega,"85,448,156 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:17,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0031.mdf.omega,"60,144,847 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:17,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0042.mdf.omega,"75,281,471 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:18,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0091.mdf.omega,"33,706,815 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:18,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0114.mdf.omega,"21,359,310 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:21,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0015.mdf.omega,"38,980,723 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:23,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0058.mdf.omega,"57,272,421 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:35,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0010.mdf.omega,"50,128,694 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:39,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0053.mdf.omega,"83,748,518 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:44,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0067.mdf.omega,"29,423,484 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:44,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0069.mdf.omega,"73,829,722 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:49,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0009.mdf.omega,"19,783,948 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:49,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0105.mdf.omega,"13,738,724 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:50,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0108.mdf.omega,"27,972,294 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:55,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0057.mdf.omega,"35,780,409 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:43:56,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0020.mdf.omega,"70,737,551 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:44:19,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0038.mdf.omega,"24,169,620 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:44:30,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0029.mdf.omega,"64,053,630 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:44:31,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0045.mdf.omega,"49,702,603 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:44:33,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0035.mdf.omega,"38,894,882 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:44:35,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0103.mdf.omega,"45,976,813 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:44:41,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0001.mdf.omega,"25,742,790 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:44:47,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0078.mdf.omega,"77,838,444 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:44:49,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0050.mdf.omega,"40,924,649 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:45:06,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0084.mdf.omega,"25,254,740 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:45:13,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,107 B out",,
+2026-10-14 02:45:15,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0065.mdf.omega,"55,325,786 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:45:21,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0098.mdf.omega,"62,681,939 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:45:22,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0055.mdf.omega,"32,214,558 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:45:26,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0068.mdf.omega,"33,702,262 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:45:26,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0073.mdf.omega,"5,677,000 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:45:40,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0032.mdf.omega,"88,519,948 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:45:57,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0095.mdf.omega,"26,876,933 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:46:28,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0080.mdf.omega,"50,168,164 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:46:33,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0093.mdf.omega,"60,967,308 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:46:43,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0117.mdf.omega,"55,657,874 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:47:12,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0061.mdf.omega,"87,081,257 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:47:18,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0071.mdf.omega,"87,202,550 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:47:24,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0116.mdf.omega,"63,784,290 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:47:26,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0110.mdf.omega,"17,626,738 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:47:33,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0036.mdf.omega,"71,910,692 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:47:39,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0099.mdf.omega,"20,333,027 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:47:40,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0003.mdf.omega,"51,021,598 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:47:47,files,HOSP-EHR-DB01,RENAME E:\EHR\Data\segment_0112.mdf.omega,"54,306,610 B x50",MASS_RENAME_OMEGA,Impact
+2026-10-14 02:54:51,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,041 B out",,
+2026-10-14 03:04:33,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,492 B out",,
+2026-10-14 03:05:00,response,Nurse Station B staff,Report EHR unavailable (first human detection),detection,,
+2026-10-14 03:12:00,response,Nurse manager,Escalated outage to IT on-call,detection,,
+2026-10-14 03:14:52,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,446 B out",,
+2026-10-14 03:20:00,response,IT on-call (netadmin),Found ransom note on HOSP-FS01 console; suspected ransomware,detection,,
+2026-10-14 03:24:46,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,484 B out",,
+2026-10-14 03:34:47,firewall,BILLING-WS-07,ALLOW -> 198.51.100.23:443,"1,165 B out",,
+2026-10-14 03:41:15,system,FW-EDGE-01,[FW-POLICY] Policy ISOLATE-OMEGA applied by on-call engineer,Deny all inter-VLAN and egress traffic for 10.20.0.0/16 (all hospital VLANs),CONTAINMENT,Response
+2026-10-14 03:48:00,response,Hospital CISO,Declared security incident; called police cyber cell and first-responder team,response,,Response
+2026-10-14 03:50:11,firewall,BILLING-WS-07,DENY -> 198.51.100.23:443,0 B out,,
+2026-10-14 03:52:00,response,FA-1 (first responder),Arrived on site; took scene control,response,,Response
+2026-10-14 04:00:09,firewall,BILLING-WS-07,DENY -> 198.51.100.23:443,0 B out,,
+2026-10-14 04:05:00,response,FA-1,Began scene documentation (sketch + photographs + evidence tags),response,,Response
+2026-10-14 04:10:14,firewall,BILLING-WS-07,DENY -> 198.51.100.23:443,0 B out,,
+2026-10-14 04:12:00,response,FA-1,Volatile-data triage on HOSP-FS01 (before any shutdown),response,,Response
+2026-10-14 04:20:03,firewall,BILLING-WS-07,DENY -> 198.51.100.23:443,0 B out,,
+2026-10-14 05:10:00,response,FA-1,Started acquisition of HOSP-FS01 D: volume (read-only path),response,,Response
+2026-10-14 05:52:00,response,FA-1,Imaging complete; SHA-256 source = image (validated),response,,Response
+2026-10-14 06:20:00,response,FA-1 / Lab custodian,Custody transfer of sealed exhibits to forensic lab,response,,Response
+2026-10-14 07:50:00,response,Hospital CISO,Incident reported to CERT-In (deadline 6h from 03:05 notice = 09:05),regulatory,,Response
+2026-10-14 08:30:00,response,Hospital legal,FIR registered at cyber police station (placeholder reference),regulatory,,Response
